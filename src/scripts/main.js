@@ -1,0 +1,1 @@
+window.WebSlides = new WebSlides();
