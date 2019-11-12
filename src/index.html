@@ -38,6 +38,9 @@
         <p class="title13">PEUR SUR MA VILLE</p>
         <p class="title14">//2019</p>
 
+        <image class="RedImg" height=19 width=53 onclick="goToSlide('drone')"
+               src="assets/images/fleche_bas_blanche.png"></image>
+        <!--        <INPUT type=image height=19 width=53 src="assets/images/fleche_bas_blanche.png" name=RedImg οnclick="goToSlide(2)">-->
 
         </section>
 
@@ -71,17 +74,17 @@
 
             <div class="columnThree drone">
                 <p class="txtBlack">DRÔNE</p>
-                <img class="img img2x1" src="assets/images/illu_intro.png" alt="img intro"/>
+                <!--                <img class="img img2x1" src="assets/images/illu_intro.png" alt="img intro"/>-->
             </div>
 
             <div class="columnThree videoSurveillance">
                 <p class="txtBlack">VIDEO SURVEILLANCE</p>
-                <img class="img img2x1" src="assets/images/illu_intro.png" alt="img intro"/>
+                <!--                <img class="img img2x1" src="assets/images/illu_intro.png" alt="img intro"/>-->
             </div>
 
             <div class="columnThree reconnaissanceFaciale">
                 <p class="txtBlack">RECONNAISSANCE FACIALE</p>
-                <img class="img img2x1" src="assets/images/illu_intro.png" alt="img intro"/>
+                <!--                <img class="img img2x1" src="assets/images/illu_intro.png" alt="img intro"/>-->
             </div>
 
         </div>
@@ -95,61 +98,38 @@
 
     <section class="section33">
 
-        <!--<p class="title3 txt3x1">LA LOIRE-ATLANTIQUE</p>
-        <p class="title2 txt3x2">"PRESQUE PARFAITE"</p>-->
-
         <img class="imageBD" src="assets/images/angle_film_BD_noir.png" alt="Angle camera">
         <img class="imageHD" src="assets/images/angle_film_HD_noir.png" alt="Angle camera">
         <img class="imageBG" src="assets/images/angle_film_BG_noir.png" alt="Angle camera">
         <img class="imageHG" src="assets/images/angle_film_HG_noir_rec.png" alt="Angle camera">
 
-
         <div class="row">
-            <div class="columnSide">
-                <img class="curseur" src="assets/images/curseur_1.png" alt="curseur">
+            <div class="columnSideLeft">
+                <!-- <img class="curseur" src="assets/images/curseur_1.png" alt="curseur">-->
                 <div class="blackLine"></div>
             </div>
             <div class="columnMiddle">
                 <p class="titleDiapo2"><span class="txtBlack">... ET DANS LE MONDE ?</span></p>
+                <p class="paragraphDiapo3"><span class="txtBlack">Pour en savoir plus sur ces enjeux, cliquez sur l'un des 3 moyens de
+                    vidéosurveillance Lorem ipsum dolor sitamet, consectetur adipiscing elit. Etiam ut congue tellus. Donec ac suscipit risus.
+                    Nam et quam placerat, ultrices dolor commodo, congue diam.</span></p>
+
+                <img class="imageOutil" src="assets/images/drones/drones_x3.png" alt="drones">
+                <img class="ombreDrone3" src="assets/images/drones/ombres_drone_x3.png" alt="drones">
+
+                <img class="curseur" src="assets/images/curseur_4.png" alt="drones">
+
             </div>
-            <div class="columnSide">
-                <button class="sideButton droneSideButton currentSideButton">Drones</button>
+            <div class="columnSideRight">
+                <button class="sideButton droneSideButton currentSideButton" onclick="goToSlide('drone')">Drones</button>
                 <button class="sideButton cameraSideButton">Caméras</button>
                 <button class="sideButton recoSideButton">Reconnaissance faciale</button>
             </div>
         </div>
 
-        <p class="menuButton" onclick="goToMenu()"><span class="txtBlack">MENU</span></p>
+        <p class="menuButton" onclick="goToSlide('home')"><span class="txtBlack">MENU</span></p>
 
 
-        <!--<p class="txt3xquestion">Quel est le<a class="definition3" onclick="definitionQuiz(3)"> taux de couverture</a>
-            en
-            Loire-Atlantique ?</p>
-        <button class="txt3xchoix1" onclick="reponseQ1(1)">64,8%</button>
-        <button class="txt3xchoix2" onclick="reponseQ1(1)">71,4%</button>
-        <button class="txt3xchoix3" onclick="reponseQ1(1)">78,1%</button>
-        <button class="txt3xchoix4" onclick="reponseQ1(1)">83,2%</button>
-
-        <p class="txt3x3">Avec un taux de couverture de <strong>78.1%</strong>, la Loire-Atlantique est le <strong>3ème
-            meilleur élève</strong> français. Les capacités d'accueil sont élevées même si elles ne couvrent
-            pas la totalité
-            des besoins.</p>
-
-        <span class="bulle3">
-                <p class="txt3x5">LE SAVIEZ-VOUS ?</br></br></p>
-                <p class="txt3x6"></br></br>Le taux de couverture correspond au ratio entre le nombre de places
-                    offertes et le
-                    nombre d'enfants en âge d'être gardés à un instant donné sur le territoire observé.</br></br>
-                    <cite><a
-                            class="a3x6" href="http://data.caf.fr/dataset/taux-de-couverture-global">Source:
-                            data.caf.fr</a></cite></p>
-            </span>
-
-        <input type="image" src="assets/images/arrow_right2.png" class="suivant3" onclick="suivantQuiz()"/>
-        <input type="image" src="assets/images/arrow_left2.png" class="precedent3" onclick="precedentQuiz()"/>
-        <img class="img img3x1" src="assets/images/illu_couverture.png" alt="img couverture"/>
-
-        <div class="graph3" id="echart_pyramid"></div>-->
     </section>
 
 
@@ -244,57 +224,11 @@
 
 
     <!------------------------------------------------------------------------------------------------------------------------------------------------------>
-    <!----------------------------------------------------------------DIAPO 7------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------DIAPO FIN REMERCIEMENTS--------------------------------------------------------------->
     <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-    <section class="sectionBorder section7">
-
-        <div class="coucou">
-            <div class="">
-                <img class="img img7x1" src="assets/images/illu_matin.png" alt="img matin"/>
-            </div>
-        </div>
-
-        <div class="test">
-            <div class="section7x1">
-
-                <p class="title3 txt7x1">UN MODE DE GARDE</p>
-                <p class="title2 txt7x2">TOUT EN SOUPLESSE</p>
-                <p class="txt7x3">Si les enfants doivent être gardés ponctuellement ou régulièrement, tôt le matin
-                    ou tard le
-                    soir, pendant les vacances scolaires ou pendant vos nuits de gardes, il est possible de trouver
-                    une assistante
-                    maternelle qui <strong>répond à vos besoins</strong>.</p>
-
-                <button class="button7 button7x1" onclick="gauge(1);switchBackground(0);"></button>
-                <p class="txt7x4">Avant 7h</p>
-                <p class="txt7x9">des ASSMAT acceptent de travailler avant 7h00.</p>
-
-                <button class="button7 button7x2" onclick="gauge(2);switchBackground(1);"></button>
-                <p class="txt7x5">Après 20h</p>
-                <p class="txt7x10">des ASSMAT acceptent de travailler après 20h00.</p>
-
-                <button class="button7 button7x3" onclick="gauge(3);switchBackground(2);"></button>
-                <p class="txt7x6">Le samedi</p>
-                <p class="txt7x11">des ASSMAT acceptent de travailler le samedi.</p>
-
-                <button class="button7 button7x4" onclick="gauge(4);switchBackground(3);"></button>
-                <p class="txt7x7">Le dimanche</p>
-                <p class="txt7x12">des ASSMAT acceptent de travailler le dimanche.</p>
-
-                <button class="button7 button7x5" onclick="gauge(5);switchBackground(4);"></button>
-                <p class="txt7x8">La nuit</p>
-                <p class="txt7x13">des ASSMAT acceptent de travailler la nuit.</p>
-
-                <button class="button7 button7x6" onclick="switchBackground(5);"></button>
-                <p class="txt7x14">Autres</p>
-
-                <div class="graph7" id="echart_mini_pie"></div>
-
-                <div class="graph9" id="echart_guage"></div>
-            </div>
-        </div>
-
+    <section class="sectionFIN">
+        
     </section>
 
 

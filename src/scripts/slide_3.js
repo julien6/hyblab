@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function goToMenu(){
 	window.location.href = 'http://127.0.0.1:8383/#slide=1';
 }
@@ -77,3 +78,5 @@ function definitionQuiz() {
 		displayBulleQuiz = 0;
 	}
 }
+=======
+>>>>>>> 977245828de99ad2e3ce68912ae0f5943bdf5b6c
