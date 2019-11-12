@@ -95,6 +95,12 @@ body {
     //border-width: 50px 50px 50px 50px;
 }
 
+.imageOutil{
+    //left: 72%;
+    top: 0%;
+    margin-right: 15%;
+}
+
 .paragraphDiapo3 {
     position: relative;
     top: 0%;
