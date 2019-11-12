@@ -46,6 +46,13 @@ body {
 >>>>>>> 5e227a1b867577a826613f2349b7682d4c69537f
 }
 
+.curseur{
+    position: absolute;
+    vertical-align: center;
+    left: 60px;
+}
+
+
 a {
     text-decoration: none;
     color:white;
