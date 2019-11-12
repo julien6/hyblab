@@ -11,13 +11,39 @@ body {
 .section11 {
     background:url('../assets/images/camera.jpg') center center no-repeat;
     background-size:100%,100%;
-    background-attachment: fixed;
+    background-attachment:fixed;
 }
 
-.white-border-ul{
-    background: url("../assets/images/angles-blancs/Trace1.png") center center no-repeat;
-    background-attachment: fixed;
-    background-size: 100%,100%;
+.section33{
+    background:url('../assets/images/background_effet_ligne.png') center center no-repeat;
+    background-size:100%,100%;
+    background-attachment:fixed;
+    background-color: gray;
+}
+
+.imageBD{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.imageHD{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.imageBG{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.imageHG{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+>>>>>>> 5e227a1b867577a826613f2349b7682d4c69537f
 }
 
 a {
