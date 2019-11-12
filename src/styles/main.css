@@ -196,6 +196,8 @@ body {
     position: absolute;
     vertical-align: center;
     left: 60px;
+    bottom: 25%;
+    height: 400px;
 }
 
 .menuButton {
