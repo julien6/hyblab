@@ -1,11 +1,25 @@
+@font-face {
+    font-family: 'BebasKai'; /*a name to be used later*/
+    src: url("../assets/font/BebasKai.ttf"); /*URL to font*/
+}
+
 * {
     outline: 0 !important;
 }
 
 html,
 body {
-    font-family: 'Raleway', sans-serif;
-   
+    font-family: BebasKai, sans-serif;
+}
+
+.txtBlack{
+    color: black;
+    font-family: BebasKai;
+}
+
+.txtRed{
+    color: red;
+    font-family: BebasKai;
 }
 
 .section11 {
@@ -43,7 +57,19 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
->>>>>>> 5e227a1b867577a826613f2349b7682d4c69537f
+}
+
+.rec{
+    position: absolute;
+    top: 50px;
+    left:57px;
+}
+
+.section22 {
+    background:url('../assets/images/background_effet_ligne.png') center center no-repeat;
+    background-size:100%,100%;
+    background-attachment:fixed;
+    background-color: gray;
 }
 
 .curseur{
@@ -162,7 +188,7 @@ a {
     .paragraph {
         font-size: 14px;
         line-height: 20px;
-    
+
 
     /*
     .sectionBorder {
