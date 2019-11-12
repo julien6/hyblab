@@ -34,7 +34,7 @@ body {
     width: 70%;
 }
 
-.column {
+.columnThree {
     float: left;
     width: 33.33%;
 }
@@ -76,6 +76,15 @@ body {
     background-attachment: fixed;
 }
 
+
+.whiteline{
+    width:3px;
+    height:400px; 
+    background:white;
+    position:absolute;
+    left:480px;
+    top:80px
+}
 .section33{
     background:url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size:100%,100%;
@@ -119,6 +128,7 @@ body {
     background-color: yellow;
     border-collapse: collapse;
 }
+
 
 .imageBD{
 position: absolute;
@@ -171,6 +181,14 @@ margin-left: 20px;
     left: 60px;
 }
 
+.menuButton{
+    position: absolute;
+    bottom: 6%;
+    left: 3%;
+    cursor: pointer;
+    font-size: 40px;
+}
+
 .sideButton{
     background-color: #bbbbbb;
     border: none;
@@ -209,21 +227,39 @@ color:white;
 }
 
 .title11 {
-    color: white;
-    font-size: 300%;
-    font-family: "Times New Roman";
-    position: fixed;
-    top: 50%;
-    left: 40%;
+    color:white;
+    font-size: 90px;
+    font-family:"BebasKai";
+    position:fixed;
+    top:53%;
+    left:40%;
 }
 
 .title12 {
-    color: white;
-    font-size: 300%;
-    font-family: "Times New Roman";
-    position: fixed;
-    top: 59%;
-    left: 40%;
+    color:white;
+    font-size: 90px;
+    font-family:"BebasKai";
+    position:fixed;
+    top:70%;
+    left:40%;
+}
+
+.title13{
+    color:white;
+    font-size: 35px;
+    font-family:"BebasKai";
+    position:fixed;
+    top:15%;
+    left:20%;
+}
+
+.title14{
+    color:white;
+    font-size: 35px;
+    font-family:"BebasKai";
+    position:fixed;
+    top:21%;
+    left:20%;
 }
 
 .title2 {
