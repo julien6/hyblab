@@ -57,12 +57,19 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
->>>>>>> 5e227a1b867577a826613f2349b7682d4c69537f
+}
+
+.rec{
+    position: absolute;
+    top: 50px;
+    left:57px;
 }
 
 .section22 {
     background:url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size:100%,100%;
+    background-attachment:fixed;
+    background-color: gray;
 }
 
 a {
