@@ -42,7 +42,7 @@
     <!----------------------------------------------------------------DIAPO 2------------------------------------------------------------------------------->
     <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-    <section class="sectionBorder section22">
+    <section class="sectionBorder section22" id="home">
 
 
         <p class="titleDiapo2"><span class="txtRed">LA POLICE DU FUTUR, </span><span class="txtBlack">UN ENJEU MUNICIPAL EN CONSTANTE EVOLUTION</span>
@@ -109,13 +109,13 @@
                 <p class="titleDiapo2"><span class="txtBlack">... ET DANS LE MONDE ?</span></p>
             </div>
             <div class="columnSide">
-                <button class="sideButton droneSideButton currentSideButton">Drones</button>
+                <button class="sideButton droneSideButton currentSideButton" onclick="goToSlide('drone')">Drones</button>
                 <button class="sideButton cameraSideButton">Caméras</button>
                 <button class="sideButton recoSideButton">Reconnaissance faciale</button>
             </div>
         </div>
 
-        <p class="menuButton" onclick="goToMenu()"><span class="txtBlack">MENU</span></p>
+        <p class="menuButton" onclick="goToSlide('home')"><span class="txtBlack">MENU</span></p>
 
 
         <!--<p class="txt3xquestion">Quel est le<a class="definition3" onclick="definitionQuiz(3)"> taux de couverture</a>
