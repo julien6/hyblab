@@ -1,5 +1,5 @@
-function goToMenu(){
-	window.location.href = 'http://127.0.0.1:8383/#slide=1';
+function goToSlide(num){
+	window.location.href = 'http://127.0.0.1:8383/#slide='+num;
 }
 
 function reponseQ1(id) {
