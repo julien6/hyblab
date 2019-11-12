@@ -11,6 +11,38 @@ body {
 .section11 {
     background:url('../assets/images/camera.jpg') center center no-repeat;
     background-size:100%,100%;
+    background-attachment:fixed;
+}
+
+.section33{
+    background:url('../assets/images/background_effet_ligne.png') center center no-repeat;
+    background-size:100%,100%;
+    background-attachment:fixed;
+    background-color: gray;
+}
+
+.imageBD{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.imageHD{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.imageBG{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.imageHG{
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 a {
