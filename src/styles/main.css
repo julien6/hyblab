@@ -72,6 +72,13 @@ body {
     background-color: gray;
 }
 
+.curseur{
+    position: absolute;
+    vertical-align: center;
+    left: 60px;
+}
+
+
 a {
     text-decoration: none;
     color:white;
