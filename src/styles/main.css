@@ -12,7 +12,7 @@ body {
     font-family: BebasKai, sans-serif;
 }
 
-.RedImg{
+.RedImg {
     cursor: pointer;
 }
 
@@ -50,9 +50,9 @@ body {
     width: 33.33%;
 }
 
-.columnsDiapo2{
+.columnsDiapo2 {
     position: absolute;
-    top : 58%;
+    top: 58%;
     align-content: center;
     width: 80%;
     left: 14%;
@@ -66,13 +66,13 @@ body {
     position: relative;
 }
 
-.blackLine{
-    width:3px;
-    height:70%;
-    background:black;
-    position:absolute;
-    left:10%;
-    top:18%;
+.blackLine {
+    width: 3px;
+    height: 70%;
+    background: black;
+    position: absolute;
+    left: 10%;
+    top: 18%;
 }
 
 
@@ -88,28 +88,31 @@ body {
 }
 
 
-.whiteline{
-    width:3px;
-    height:400px; 
-    background:white;
-    position:absolute;
-    left:480px;
-    top:80px
-}
-.section33{
-    background:url('../assets/images/background_effet_ligne.png') center center no-repeat;
-    background-size:100%,100%;
-    background-attachment:fixed;
-    background-color: #C2C2C2;
-    //border-color: whitesmoke;
-    //border-style: solid;
-    //border-width: 50px 50px 50px 50px;
+.whiteline {
+    width: 3px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    left: 480px;
+    top: 80px
 }
 
-.imageOutil{
-    //left: 72%;
-    top: 0%;
-    margin-right: 15%;
+.section33 {
+    background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    background-color: #C2C2C2;
+/ / border-color: whitesmoke;
+/ / border-style: solid;
+/ / border-width: 50 px 50 px 50 px 50 px;
+}
+
+.imageOutil {
+    position: absolute;
+    top: 8%;
+    right: 15%;
+    width: 266px;
+    height: 144px;
 }
 
 .paragraphDiapo3 {
@@ -143,28 +146,28 @@ body {
     clear: both;
 }
 
-.imageBD{
-position: absolute;
-bottom: 20px;
-right: 20px;
+.imageBD {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
 
-.imageHD{
-position: absolute;
-top: 20px;
-right: 20px;
+.imageHD {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
-.imageBG{
-position: absolute;
-bottom: 20px;
-left: 20px;
+.imageBG {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
 
-.imageHG{
-position: absolute;
-top: 20px;
-left: 20px;
+.imageHG {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 .rec {
@@ -173,14 +176,15 @@ left: 20px;
     left: 57px;
 }
 
-.rectangle{
-background: white;
-z-index: 10;
-width:80%;
-height:80%;
-margin-bottom: 20px;
-margin-left: 20px;
+.rectangle {
+    background: white;
+    z-index: 10;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
+
 .section22 {
     background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size: 100%, 100%;
@@ -194,7 +198,7 @@ margin-left: 20px;
     left: 60px;
 }
 
-.menuButton{
+.menuButton {
     position: absolute;
     bottom: 6%;
     left: 3%;
@@ -202,7 +206,7 @@ margin-left: 20px;
     font-size: 40px;
 }
 
-.sideButton{
+.sideButton {
     background-color: #bbbbbb;
     border: none;
     color: white;
@@ -214,93 +218,93 @@ margin-left: 20px;
     width: 13%;
     position: absolute;
     right: 0;
-    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transform: rotate(-90deg);
 }
 
-.currentSideButton{
+.currentSideButton {
     background-color: darkred;
 }
 
-.droneSideButton{
+.droneSideButton {
     top: 18%;
 }
 
-.cameraSideButton{
+.cameraSideButton {
     top: 46.5%;
 }
 
-.recoSideButton{
+.recoSideButton {
     bottom: 18%
 }
 
 a {
-text-decoration: none;
-color:white;
+    text-decoration: none;
+    color: white;
 }
 
 .title11 {
-    color:white;
+    color: white;
     font-size: 90px;
-    font-family:"BebasKai";
-    position:fixed;
-    top:53%;
-    left:40%;
+    font-family: "BebasKai";
+    position: fixed;
+    top: 53%;
+    left: 40%;
 }
 
 .title12 {
-    color:white;
+    color: white;
     font-size: 90px;
-    font-family:"BebasKai";
-    position:fixed;
-    top:70%;
-    left:40%;
+    font-family: "BebasKai";
+    position: fixed;
+    top: 70%;
+    left: 40%;
 }
 
-.title13{
-    color:white;
+.title13 {
+    color: white;
     font-size: 35px;
-    font-family:"BebasKai";
-    position:fixed;
-    top:15%;
-    left:20%;
+    font-family: "BebasKai";
+    position: fixed;
+    top: 15%;
+    left: 20%;
 }
 
-.title14{
-    color:white;
+.title14 {
+    color: white;
     font-size: 35px;
-    font-family:"BebasKai";
-    position:fixed;
-    top:21%;
-    left:20%;
+    font-family: "BebasKai";
+    position: fixed;
+    top: 21%;
+    left: 20%;
 }
 
 .title2 {
-color: #004460;
-font-size: 40px;
-font-weight: bold;
+    color: #004460;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .title3 {
-color: #004460;
-font-size: 30px;
+    color: #004460;
+    font-size: 30px;
 }
 
 .img {
-max-width: 100%;
-position: absolute;
+    max-width: 100%;
+    position: absolute;
 }
 
 .img:hover {
-opacity: 1;
+    opacity: 1;
 }
 
 .paragraph {
-color: #666666;
-font-size: 18px;
-line-height: 25px;
-text-align: justify;
-position: absolute;
+    color: #666666;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    position: absolute;
 }
 
 /*
