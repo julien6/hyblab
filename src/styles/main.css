@@ -94,7 +94,16 @@ body {
     //border-style: solid;
     //border-width: 50px 50px 50px 50px;
 }
-.columnSide {
+
+.paragraphDiapo3 {
+    position: relative;
+    top: 0%;
+    left: 12%;
+    width: 100%;
+}
+
+
+.columnSideLeft {
     float: left;
     width: 10%;
 }
@@ -104,6 +113,11 @@ body {
     width: 80%;
 }
 
+.columnSideRight {
+    float: left;
+    width: 10%;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -111,24 +125,6 @@ body {
     display: table;
     clear: both;
 }
-
-.middlepanel {
-    width: 50%;
-    height: 100%;
-    float: left;
-    background-color: royalblue;
-    border-collapse: collapse;
-}
-
-.rightpanel {
-    width: 25%;
-    height: 100%;
-    position: relative;
-    float: right;
-    background-color: yellow;
-    border-collapse: collapse;
-}
-
 
 .imageBD{
 position: absolute;
