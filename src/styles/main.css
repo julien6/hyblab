@@ -97,6 +97,23 @@ body {
     top: 80px
 }
 
+.logos{
+    /*margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;*/
+    /*width:3%;*/
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15%;
+    background-color: #3F3F3F;
+}
+
 .section33 {
     background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size: 100%, 100%;
