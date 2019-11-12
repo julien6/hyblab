@@ -7,6 +7,18 @@
     outline: 0 !important;
 }
 
+:root {
+    --color-red: #E62E2B;
+    --button-gray: #AFAFAF;
+    --background-color1: #EBEBEB;
+    --background-color2: #C2C2C2;
+    --background-color3: #8C8C8C;
+    --background-color4: #656565;
+    --background-color5: #3F3F3F;
+    --on-clear-color: #2E2E2E;
+    --on-dark-color: #FFFFFF;
+}
+
 html,
 body {
     font-family: BebasKai, sans-serif;
@@ -77,7 +89,7 @@ body {
 
 
 .txtRed {
-    color: #E62E2B;
+    color: var(--color-red);
     font-family: BebasKai;
 }
 
@@ -101,8 +113,8 @@ body {
     background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size: 100%, 100%;
     background-attachment: fixed;
-    background-color: #C2C2C2;
-/ / border-color: whitesmoke;
+    background-color: var(--background-color2);
+/ / border-color: var(--on-dark-color)smoke;
 / / border-style: solid;
 / / border-width: 50 px 50 px 50 px 50 px;
 }
@@ -189,7 +201,7 @@ body {
     background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size: 100%, 100%;
     background-attachment: fixed;
-    background-color: #EBEBEB;
+    background-color: var(--background-color1);
 }
 
 .curseur {
@@ -209,9 +221,9 @@ body {
 }
 
 .sideButton {
-    background-color: #bbbbbb;
+    background-color: var(--button-gray);
     border: none;
-    color: white;
+    color: var(--on-dark-color);
     text-align: center;
     font-size: 2vh;
     font-weight: bold;
@@ -225,7 +237,7 @@ body {
 }
 
 .currentSideButton {
-    background-color: darkred;
+    background-color: var(--color-red);
 }
 
 .droneSideButton {
@@ -242,11 +254,11 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--on-dark-color);
 }
 
 .title11 {
-    color: white;
+    color: var(--on-dark-color);
     font-size: 90px;
     font-family: "BebasKai";
     position: fixed;
@@ -255,7 +267,7 @@ a {
 }
 
 .title12 {
-    color: white;
+    color: var(--on-dark-color);
     font-size: 90px;
     font-family: "BebasKai";
     position: fixed;
@@ -264,7 +276,7 @@ a {
 }
 
 .title13 {
-    color: white;
+    color: var(--on-dark-color);
     font-size: 35px;
     font-family: "BebasKai";
     position: fixed;
@@ -273,7 +285,7 @@ a {
 }
 
 .title14 {
-    color: white;
+    color: var(--on-dark-color);
     font-size: 35px;
     font-family: "BebasKai";
     position: fixed;
@@ -466,7 +478,7 @@ border-width: 50px 100px 100px 100px;
 
     .a2x6,
     .a3x6 {
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .bulle2 {
@@ -477,7 +489,7 @@ border-width: 50px 100px 100px 100px;
         background-color: #7c2722;
         width: 23%;
         height: 35%;
-        color: white;
+        color: var(--on-dark-color);
         border-radius: 1vw;
         vertical-align: middle;
         padding-top: 20px;
@@ -595,7 +607,7 @@ border-width: 50px 100px 100px 100px;
 
     .txt3xchoix1:hover {
         background-color: #166088;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .txt3xchoix2 {
@@ -618,7 +630,7 @@ border-width: 50px 100px 100px 100px;
 
     .txt3xchoix2:hover {
         background-color: #166088;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .txt3xchoix3 {
@@ -641,7 +653,7 @@ border-width: 50px 100px 100px 100px;
 
     .txt3xchoix3:hover {
         background-color: #166088;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .txt3xchoix4 {
@@ -664,7 +676,7 @@ border-width: 50px 100px 100px 100px;
 
     .txt3xchoix4:hover {
         background-color: #166088;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .definition2 {
@@ -674,7 +686,7 @@ border-width: 50px 100px 100px 100px;
 
     .definition2:hover {
         text-decoration: none;
-        color: white;
+        color: var(--on-dark-color);
         background: #800;
         cursor: pointer;
     }
@@ -686,7 +698,7 @@ border-width: 50px 100px 100px 100px;
 
     .definition3:hover {
         text-decoration: none;
-        color: white;
+        color: var(--on-dark-color);
         background: #800;
         cursor: pointer;
     }
@@ -699,7 +711,7 @@ border-width: 50px 100px 100px 100px;
         background-color: #7c2722;
         width: 23%;
         height: 35%;
-        color: white;
+        color: var(--on-dark-color);
         border-radius: 1vw;
         vertical-align: middle;
         padding-top: 20px;
@@ -875,7 +887,7 @@ border-width: 50px 100px 100px 100px;
         background-color: #004460;
         width: 28%;
         height: 60%;
-        color: white;
+        color: var(--on-dark-color);
         border-radius: 1vw;
         vertical-align: middle;
         padding-top: 20px;
@@ -962,7 +974,7 @@ border-width: 50px 100px 100px 100px;
         background-color: #7c2722;
         width: 20%;
         height: 35%;
-        color: white;
+        color: var(--on-dark-color);
         border-radius: 1vw;
         vertical-align: middle;
         padding-top: 20px;
@@ -977,7 +989,7 @@ border-width: 50px 100px 100px 100px;
 
     .definition6:hover {
         text-decoration: none;
-        color: white;
+        color: var(--on-dark-color);
         background: #800;
         cursor: pointer;
     }
@@ -1004,7 +1016,7 @@ border-width: 50px 100px 100px 100px;
 
     .button6x1:hover {
         background-color: #F2ED6F;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .button6x2 {
@@ -1013,7 +1025,7 @@ border-width: 50px 100px 100px 100px;
 
     .button6x2:hover {
         background-color: #587792;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .button6x3 {
@@ -1022,7 +1034,7 @@ border-width: 50px 100px 100px 100px;
 
     .button6x3:hover {
         background-color: #BB4430;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     /* DIAPO6 */
@@ -1193,7 +1205,7 @@ border-width: 50px 100px 100px 100px;
 
     .button7x1:hover {
         background-color: #ffca18;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .button7x2 {
@@ -1202,7 +1214,7 @@ border-width: 50px 100px 100px 100px;
 
     .button7x2:hover {
         background-color: #f65e53;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .button7x3 {
@@ -1211,7 +1223,7 @@ border-width: 50px 100px 100px 100px;
 
     .button7x3:hover {
         background-color: #67c7f7;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .button7x4 {
@@ -1220,7 +1232,7 @@ border-width: 50px 100px 100px 100px;
 
     .button7x4:hover {
         background-color: #2ae98c;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .button7x5 {
@@ -1229,7 +1241,7 @@ border-width: 50px 100px 100px 100px;
 
     .button7x5:hover {
         background-color: #37004d;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     .button7x6 {
@@ -1239,7 +1251,7 @@ border-width: 50px 100px 100px 100px;
 
     .button7x6:hover {
         background-color: #9B59B6;
-        color: white;
+        color: var(--on-dark-color);
     }
 
     /* DIAPO7 */
