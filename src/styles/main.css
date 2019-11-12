@@ -14,12 +14,15 @@ body {
     background-attachment:fixed;
 }
 
-.section33{
-    background:url('../assets/images/background_effet_ligne.png') center center no-repeat;
-    background-size:100%,100%;
-    background-attachment:fixed;
-    background-color: gray;
+.whiteline{
+    width:3px;
+    height:400px; 
+    background:white;
+    position:absolute;
+    left:480px;
+    top:80px
 }
+
 
 .imageBD{
     position: absolute;
@@ -43,7 +46,6 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
->>>>>>> 5e227a1b867577a826613f2349b7682d4c69537f
 }
 
 a {
@@ -53,20 +55,38 @@ a {
 
 .title11 {
     color:white;
-    font-size: 300%;
-    font-family:"Times New Roman";
+    font-size: 90px;
+    font-family:"BebasKai";
     position:fixed;
-    top:50%;
+    top:53%;
     left:40%;
 }
 
 .title12 {
     color:white;
-    font-size: 300%;
-    font-family:"Times New Roman";
+    font-size: 90px;
+    font-family:"BebasKai";
     position:fixed;
-    top:59%;
+    top:70%;
     left:40%;
+}
+
+.title13{
+    color:white;
+    font-size: 35px;
+    font-family:"BebasKai";
+    position:fixed;
+    top:15%;
+    left:20%;
+}
+
+.title14{
+    color:white;
+    font-size: 35px;
+    font-family:"BebasKai";
+    position:fixed;
+    top:21%;
+    left:20%;
 }
 
 .title2 {
