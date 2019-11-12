@@ -12,6 +12,10 @@ body {
     font-family: BebasKai, sans-serif;
 }
 
+.RedImg{
+    cursor: pointer;
+}
+
 .txtBlack {
     color: black;
     font-family: BebasKai;
