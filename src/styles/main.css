@@ -126,6 +126,14 @@ body {
     left: 60px;
 }
 
+.menuButton{
+    position: absolute;
+    bottom: 6%;
+    left: 3%;
+    cursor: pointer;
+    font-size: 40px;
+}
+
 .sideButton{
     background-color: #bbbbbb;
     border: none;
