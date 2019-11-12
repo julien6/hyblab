@@ -11,16 +11,36 @@ body {
 .section11 {
     background:url('../assets/images/camera.jpg') center center no-repeat;
     background-size:100%,100%;
+    background-attachment: fixed;
+}
+
+.white-border-ul{
+    background: url("../assets/images/angles-blancs/Trace1.png") center center no-repeat;
+    background-attachment: fixed;
+    background-size: 100%,100%;
 }
 
 a {
     text-decoration: none;
-    color: #004460;
+    color:white;
 }
 
-.title1 {
-    color: #004460;
-    font-size: 60px;
+.title11 {
+    color:white;
+    font-size: 300%;
+    font-family:"Times New Roman";
+    position:fixed;
+    top:50%;
+    left:40%;
+}
+
+.title12 {
+    color:white;
+    font-size: 300%;
+    font-family:"Times New Roman";
+    position:fixed;
+    top:59%;
+    left:40%;
 }
 
 .title2 {
