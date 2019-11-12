@@ -175,12 +175,42 @@ body {
     width: 10%;
 }
 
+.contentLeft {
+    float: left;
+    width: 20%;
+}
+
+.contentMiddle {
+    float: left;
+    width: 60%;
+}
+
+.contentRight {
+    float: left;
+    width: 20%;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
     margin: 10%;
     display: table;
     clear: both;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.video_fin{
+    position: absolute;
+    top: 8%;
+    right: 0%;
+    width: 50%;
+    height: 50%;
 }
 
 .imageBD {
@@ -223,10 +253,17 @@ body {
 }
 
 .section22 {
-    background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
-    background-size: 100%, 100%;
+     background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
+     background-size: 100%, 100%;
+     background-attachment: fixed;
+     background-color: var(--background-color1);
+ }
+
+.sectionFIN {
+    background: url('../assets/images/camera/camera_laser.svg') center right no-repeat;
+    background-size: 60%, 60%;
     background-attachment: fixed;
-    background-color: var(--background-color1);
+    /*background-color: var(--background-color1);*/
 }
 
 .curseur {
