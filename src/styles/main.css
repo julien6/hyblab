@@ -115,6 +115,14 @@ body {
     height: 144px;
 }
 
+.ombreDrone3{
+    position: absolute;
+    bottom: 8%;
+    right: 15%;
+    width: 266px;
+    height: 144px;
+}
+
 .paragraphDiapo3 {
     position: relative;
     top: 0%;
