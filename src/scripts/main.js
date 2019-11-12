@@ -1,1 +1,4 @@
-window.WebSlides = new WebSlides();
+window.WebSlides = new WebSlides({
+    loop: false,
+    showIndex: false,
+});
