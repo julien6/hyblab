@@ -2,6 +2,10 @@ function goToMenu(){
 	window.location.href = 'http://127.0.0.1:8383/#slide=1';
 }
 
+function GoSecondPage(){
+    window.location.href= 'http://127.0.0.1:8383/#slide=2';
+}
+
 function reponseQ1(id) {
 	if (id == 1) {
 		document.getElementsByClassName("txt3xchoix1")[0].style.backgroundColor = '#DD2D4A';

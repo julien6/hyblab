@@ -77,14 +77,6 @@ body {
 }
 
 
-.whiteline{
-    width:3px;
-    height:400px; 
-    background:white;
-    position:absolute;
-    left:480px;
-    top:80px
-}
 .section33{
     background:url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size:100%,100%;
@@ -189,6 +181,15 @@ margin-left: 20px;
     font-size: 40px;
 }
 
+.flesh{
+    position: absolute;
+    bottom: 6%;
+    left: 3%;
+    cursor: pointer;
+    font-size: 40px;
+    background:url("../assets/images/fleche_bas_blanche.png") no-repeat
+}
+
 .sideButton{
     background-color: #bbbbbb;
     border: none;
@@ -226,12 +227,31 @@ text-decoration: none;
 color:white;
 }
 
+.containerLeft{
+    background-size: 50%, 100%;
+    background-color: red;
+
+}
+
+.containerLeftRight{
+    background-size:50%,100%;
+    background-color:blue
+}
+
+.whiteline{
+    width:3px;
+    height:450px; 
+    background:white;
+    position: absolute;;
+    left: 38%;
+}
+
 .title11 {
     color:white;
     font-size: 90px;
     font-family:"BebasKai";
-    position:fixed;
-    top:53%;
+    position:absolute;
+    top:62%;
     left:40%;
 }
 
@@ -239,8 +259,8 @@ color:white;
     color:white;
     font-size: 90px;
     font-family:"BebasKai";
-    position:fixed;
-    top:70%;
+    position:absolute;
+    top:77%;
     left:40%;
 }
 
