@@ -34,7 +34,7 @@ body {
     width: 70%;
 }
 
-.column {
+.columnThree {
     float: left;
     width: 33.33%;
 }
@@ -99,7 +99,7 @@ body {
     width: 10%;
 }
 
-.column {
+.columnMiddle {
     float: left;
     width: 80%;
 }
@@ -179,6 +179,14 @@ margin-left: 20px;
     position: absolute;
     vertical-align: center;
     left: 60px;
+}
+
+.menuButton{
+    position: absolute;
+    bottom: 6%;
+    left: 3%;
+    cursor: pointer;
+    font-size: 40px;
 }
 
 .sideButton{
