@@ -219,17 +219,12 @@ body {
 
 .contentLeft {
     float: left;
-    width: 20%;
+    width: 30%;
 }
 
 .contentMiddle {
     float: left;
-    width: 60%;
-}
-
-.contentRight {
-    float: left;
-    width: 20%;
+    width: 70%;
 }
 
 /* Clear floats after the columns */
@@ -324,12 +319,12 @@ body {
     height: 144px;
 }
 .whiteline {
-    width: 3px;
-    height: 400px;
+    width: 4px;
+    height: 90%;
     background: white;
     position: absolute;
-    left: 480px;
-    top: 80px
+    left: 35%;
+    top: 15%;
 }
 
 /*------------- FIN PAGE ACCUEIL----------------*/
@@ -464,7 +459,7 @@ a {
     font-size: 90px;
     font-family:"BebasKai";
     position:absolute;
-    top:62%;
+    top:50%;
     left:40%;
 }
 
@@ -473,7 +468,7 @@ a {
     font-size: 90px;
     font-family:"BebasKai";
     position:absolute;
-    top:77%;
+    top:65%;
     left:40%;
 }
 
