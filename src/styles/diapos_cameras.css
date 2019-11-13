@@ -49,16 +49,16 @@
     left: 12%;
     top: 15%;
     right: 53%;
+    width: 100%;
     display: block;
     width: 100%;
 }
 
 .paragraphDiapoFranceCamera {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 12%;
     width: 55%;
-    font-size: 30px;
 }
 
 .titleDiapoDeriveCamera {
