@@ -30,7 +30,7 @@ body {
 
 .txtBlackParagraph {
     color: black;
-    font-family: BebasKai;
+    /*font-family: BebasKai;*/
 }
 
 .txtWhiteParagraph {
@@ -103,6 +103,24 @@ body {
     background-size: 100%, 100%;
 }
 
+.sectionBug{
+
+}
+
+#video_background{
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 70%;
+    min-height: 70%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
 
 .columnSideLeft {
     float: left;
