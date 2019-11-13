@@ -1,5 +1,4 @@
 
-
 .titleDiapoGen {
     font-size: 80px;
     line-height: 100px;
@@ -27,14 +26,13 @@
     display: block;
 }
 
-.paragraphDiapoGenHigh2{
+.paragraphDiapoGenHigh2 {
     position: relative;
     top: 120px;
     left: 13%;
     width: 60%;
     display: block;
 }
-
 
 
 .imageOutil1 {
@@ -64,4 +62,61 @@
 / / border-color: whitesmoke;
 / / border-style: solid;
 / / border-width: 50 px 50 px 50 px 50 px;
+}
+
+.dFranceButton {
+    background-color: transparent;
+    border: none;
+    font-size: 4vh;
+}
+
+#dButton1 {
+    position: absolute;
+    left: 60%;
+}
+
+#dButton2 {
+    position: absolute;
+    left: 75%;
+}
+
+#dButton3 {
+    position: absolute;
+    bottom: 40%;
+    left: 60%;
+}
+
+#dButton4 {
+    position: absolute;
+    bottom: 40%;
+    left: 75%;
+}
+
+#dButton5 {
+    position: absolute;
+    left: 60%;
+    bottom: 30%;
+}
+
+#dButton6 {
+    position: absolute;
+    left: 75%;
+    bottom: 30%;
+}
+
+.droneFrancetxtDiv {
+    position: absolute;
+    font-family: Calibri;
+    left: 50%;
+    bottom: 20%;
+}
+
+.droneFrancetxt {
+    display: none;
+    font-size: 3vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    bottom: 20%;
 }
