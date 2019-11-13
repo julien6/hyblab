@@ -63,17 +63,6 @@ body {
     top: 18%;
 }
 
-
-.whiteline {
-    width: 3px;
-    height: 400px;
-    background: white;
-    position: absolute;
-    left: 480px;
-    top: 80px
-}
-
-
 .sectionWhite {
     background-color: white;
 }
