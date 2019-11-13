@@ -33,6 +33,11 @@ body {
     font-family: Calibri;
 }
 
+.txtWhiteParagraph {
+    color: white;
+    font-family: Calibri;
+}
+
 .txtBlack {
     color: black;
     font-family: BebasKai;
