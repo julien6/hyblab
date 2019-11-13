@@ -12,7 +12,7 @@
     --button-gray: #AFAFAF;
     --background-color1: #EBEBEB;
     --background-color2: #C2C2C2;
-    --background-color3: #8C8C8C;
+    --background-color3: #8c8c8c;
     --background-color4: #656565;
     --background-color5: #3F3F3F;
     --on-clear-color: #2E2E2E;
@@ -76,27 +76,32 @@ body {
 
 .sectionWhite {
     background-color: white;
+    background-size: 100%, 100%;
 }
 
 .sectionColor1 {
-    background-color: var(--background-color1) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background: #EBEBEB url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
     background-size: 100%, 100%;
 }
 
 .sectionColor2 {
-    background-color: var(--background-color2) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background: #C2C2C2 url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background-size: 100%, 100%;
 }
 
 .sectionColor3 {
-    background-color: var(--background-color3) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background: #8c8c8c url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background-size: 100%, 100%;
 }
 
 .sectionColor4 {
-    background-color: var(--background-color4) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background: #656565 url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background-size: 100%, 100%;
 }
 
 .sectionColor5 {
-    background-color: var(--background-color5) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background: #3F3F3F url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background-size: 100%, 100%;
 }
 
 
