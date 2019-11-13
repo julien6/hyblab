@@ -21,7 +21,7 @@
 
 html,
 body {
-    font-family: BebasKai, sans-serif;
+    font-family: Calibri, sans-serif;
 }
 
 .RedImg {
@@ -39,7 +39,7 @@ body {
 }
 
 .titleDiapo2 {
-    font-size: 80px;
+    font-size: 10vh;
     font-weight: bold;
     line-height: 100px;
     position: absolute;
@@ -378,6 +378,17 @@ body {
     width: 100%;
 }
 
+
+.columnSideLeft {
+    float: left;
+    width: 10%;
+}
+
+.columnMiddle {
+    float: left;
+    width: 80%;
+}
+
 .columnSideRight {
     float: left;
     width: 10%;
@@ -468,6 +479,37 @@ body {
 }
 
 
+
+/**------------------------------ DIAPO 2 : BIENVENUE A TECHNOPOLICE -----------------------**/
+.sectionSlide2 {
+    background: url('../assets/images/background/background_technopolice.svg') center center no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    background-color: white;
+}
+
+.titleSlide2 {
+    font-size: 10vh;
+    font-weight: bold;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top:7%;
+    right:12%;
+    display: block;
+}
+
+.paragraphSlide2 {
+    position: relative;
+    font-size: 2.5vh;
+    top: 0;
+    left: 11%;
+    font-family: Calibri;
+    width: 60%;
+}
+
+/**------------------------------------------FIN DIAPO 2 ------------------------ -----------**/
+
 .sectionFIN {
     background: url('../assets/images/camera/camera_laser.svg') center right no-repeat;
     background-size: 60%, 60%;
@@ -490,6 +532,23 @@ body {
     height: 144px;
 }
 
+.title11 {
+    color: var(--on-dark-color);
+    font-size: 90px;
+    font-family:"BebasKai";
+    position:absolute;
+    top:50%;
+    left:40%;
+}
+
+.title12 {
+    color: var(--on-dark-color);
+    font-size: 90px;
+    font-family:"BebasKai";
+    position:absolute;
+    top:65%;
+    left:40%;
+}
 .whiteline {
     width: 4px;
     height: 90%;
