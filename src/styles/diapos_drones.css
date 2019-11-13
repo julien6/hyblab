@@ -13,34 +13,16 @@
 
 .paragraphDiapoGen {
     position: relative;
-<<<<<<< HEAD
     top: 130px;
     left: 13%;
     width: 60%;
 }
 
-/*.paragraphDiapoGen {
-    position: relative;
-    top: 70%;
-    left: 11%;
-    width: 70%;
-    display: block;
-}*/
-=======
-    top: 140px;
-    left: 15%;
-    width: 70%;
-}
->>>>>>> 93d9cd6aff8d9d431bde8e1fe6c7cafbbadd3ead
 
 .paragraphDiapoGenHigh {
     position: relative;
     top: 40px;
-<<<<<<< HEAD
     left: 13%;
-=======
-    left: 15%;
->>>>>>> 93d9cd6aff8d9d431bde8e1fe6c7cafbbadd3ead
     width: 60%;
     display: block;
 }
@@ -53,18 +35,7 @@
     display: block;
 }
 
-/*
-.titleDiapoGen {
-    font-size: 80px;
-    font-weight: bold;
-    line-height: 100px;
-    position: absolute;
-    left: 15%;
-    top: 15%;
-    display: block;
-    width: 50%;
-}
-*/
+
 
 .imageOutil1 {
     position: absolute;
