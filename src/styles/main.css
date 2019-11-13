@@ -28,6 +28,11 @@ body {
     cursor: pointer;
 }
 
+.txtBlackParagraph{
+    color: black;;
+    font-family: Calibri, sans-serif;
+}
+
 .txtBlack {
     color: black;
     font-family: BebasKai;
