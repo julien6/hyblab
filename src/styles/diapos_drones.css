@@ -17,9 +17,9 @@
     width: 60%;
 }
 
-.paragr6MunicipDrone{
+.paragr6MunicipDrone {
     position: absolute;
-    top : 350px;
+    top: 350px;
     left: 13%;
 }
 
@@ -35,13 +35,14 @@
     content: "";
     display: table;
     clear: both;
-    width: 70%;
+    width: 75%;
     position: relative;
-    top : 150px;
+    top: 110px;
     left: 10%;
+    margin: 0px;
 }
 
-.paragr6MunicipSurv{
+.paragr6MunicipSurv {
     position: relative;
     left: 10%
 }
