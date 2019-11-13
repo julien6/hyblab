@@ -1,19 +1,48 @@
-.paragraphDiapoGen {
-    position: relative;
-    top: 140px;
-    left: 10%;
-    width: 70%;
+
+
+.titleDiapoGen {
+    font-size: 80px;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 12%;
+    width: 50%;
     display: block;
 }
+
+.paragraphDiapoGen {
+    position: relative;
+    top: 130px;
+    left: 13%;
+    width: 60%;
+}
+
+/*.paragraphDiapoGen {
+    position: relative;
+    top: 70%;
+    left: 11%;
+    width: 70%;
+    display: block;
+}*/
 
 .paragraphDiapoGenHigh {
     position: relative;
     top: 40px;
-    left: 11%;
+    left: 13%;
     width: 60%;
     display: block;
 }
 
+.paragraphDiapoGenHigh2{
+    position: relative;
+    top: 120px;
+    left: 13%;
+    width: 60%;
+    display: block;
+}
+
+/*
 .titleDiapoGen {
     font-size: 80px;
     font-weight: bold;
@@ -24,18 +53,7 @@
     display: block;
     width: 50%;
 }
-
-<<<<<<< HEAD
-/**
-.sectionColor1 {
-    background-size: 100%, 100%;
-    background: var(--background-color2) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
-    border-color: var(--on-dark-color) smoke;
-    border-style: solid;
-}
-**/
-=======
->>>>>>> ee4ec59a8c7acbc2333ee9101688c86122eaa01c
+*/
 
 .imageOutil1 {
     position: absolute;
