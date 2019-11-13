@@ -1,28 +1,40 @@
+
+
+.titleDiapoGen {
+    font-size: 80px;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 12%;
+    width: 50%;
+    display: block;
+}
+
 .paragraphDiapoGen {
     position: relative;
-    top: 200px;
-    left: 15%;
-    width: 70%;
+    top: 130px;
+    left: 13%;
+    width: 60%;
 }
+
 
 .paragraphDiapoGenHigh {
     position: relative;
     top: 40px;
-    left: 15%;
+    left: 13%;
     width: 60%;
     display: block;
 }
 
-.titleDiapoGen {
-    font-size: 80px;
-    font-weight: bold;
-    line-height: 100px;
-    position: absolute;
-    left: 15%;
-    top: 15%;
+.paragraphDiapoGenHigh2{
+    position: relative;
+    top: 120px;
+    left: 13%;
+    width: 60%;
     display: block;
-    width: 50%;
 }
+
 
 
 .imageOutil1 {

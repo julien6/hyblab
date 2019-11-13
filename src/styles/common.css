@@ -30,7 +30,12 @@ body {
 
 .txtBlackParagraph {
     color: black;
-    font-family: Calibri;
+    font-family: BebasKai;
+}
+
+.txtWhiteParagraph {
+    color: white;
+    font-family: BebasKai;
 }
 
 .txtBlack {

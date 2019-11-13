@@ -21,9 +21,10 @@
 
 .paragraphDiapoQuoiCamera {
     position: relative;
-    top: 70px;
+    top: 145px;
     left: 11%;
-    width: 55%;
+    width: 70%;
+    line-height: 20px;
 }
 
 .titleDiapoMuniCamera {
@@ -80,9 +81,31 @@
 
 .paragraphDiapoMondeCamera {
     position: relative;
-    top: 0%;
+    top: 40%;
     left: 11%;
     width: 55%;
+}
+
+.txtBlackParagraphCamera{
+    color: black;
+    line-height: 2px;
+    font-weight: normal;
+}
+
+.txtRedParagraphCamera{
+    color: red;
+    line-height: 2px;
+    font-weight: normal;
+}
+
+.txtBlackTitleCamera{
+    color: black;
+    font-family: BebasKai;
+    font-size:20px;
+    line-height: 2px;
+    font-weight: normal;
+    position: relative;
+    top:50px;
 }
 
 .imageCamera {
@@ -95,7 +118,9 @@
 
 .imageCameraLaser {
     position: absolute;
-    top: 55%;
-    right: 4.5%;
-    height: 600px;
+    width: 70%;
+    height: 100%;
+    top: 32%;
+    right: 7%;
+    overflow: hidden;
 }
