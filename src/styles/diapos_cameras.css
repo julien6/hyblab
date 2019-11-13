@@ -76,7 +76,7 @@
     position: absolute;
     top: 32%;
     left: 12%;
-    width: 55%;
+    width: 70%;
 }
 
 
@@ -87,26 +87,26 @@
     width: 55%;
 }
 
-.txtBlackParagraphCamera{
+.txtBlackParagraphCamera {
     color: black;
     line-height: 2px;
     font-weight: normal;
 }
 
-.txtRedParagraphCamera{
+.txtRedParagraphCamera {
     color: red;
     line-height: 2px;
     font-weight: normal;
 }
 
-.txtBlackTitleCamera{
+.txtBlackTitleCamera {
     color: black;
     font-family: BebasKai;
-    font-size:20px;
+    font-size: 20px;
     line-height: 2px;
     font-weight: normal;
     position: relative;
-    top:50px;
+    top: 50px;
 }
 
 .imageCamera {
