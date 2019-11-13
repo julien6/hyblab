@@ -33,7 +33,33 @@ body {
     font-family: BebasKai;
 }
 
+.txtWhite{
+    color:white;
+    font-family: BebasKai;
+}
+
 .titleDiapo2 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    display: block;
+}
+
+.titleDiapo9 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right:12%;
+    display: block;
+}
+
+.title91 {
     font-size: 80px;
     font-weight: bold;
     line-height: 100px;
@@ -48,6 +74,26 @@ body {
     top: 0%;
     left: 11%;
     width: 70%;
+}
+
+.paragraphDiapo4 {
+    position: relative;
+    top: 70px;
+    left: 11%;
+    width: 55%;
+}
+
+.paragraphDiapo9 {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    width: 55%;
+}
+.paragraphDiapo12 {
+    position: relative;
+    top: 0%;
+    left: 11%;
+    width: 55%;
 }
 
 .paragraphDiapo3 {
@@ -99,7 +145,12 @@ body {
     background-attachment: fixed;
 }
 
-
+.imageCamera{
+    position: absolute;
+    top: 33%;
+    right: 8%;
+    height: 144px;
+}
 .whiteline {
     width: 3px;
     height: 400px;
@@ -109,16 +160,42 @@ body {
     top: 80px
 }
 
+.logos{
+    /*margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;*/
+    size:5px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15%;
+    background-color: #3F3F3F;
+}
+
 .section33 {
     background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size: 100%, 100%;
     background-attachment: fixed;
     background-color: var(--background-color2);
-/ / border-color: var(--on-dark-color)smoke;
-/ / border-style: solid;
-/ / border-width: 50 px 50 px 50 px 50 px;
+    border-color: var(--on-dark-color)smoke;
+    border-style: solid;
+    border-width: 50 px 50 px 50 px 50 px;
 }
 
+.section99 {
+    background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    background-color: var(--background-color4);
+    border-color: var(--on-dark-color)smoke;
+    border-style: solid;
+    border-width: 50 px 50 px 50 px 50 px;
+}
 .imageOutil {
     position: absolute;
     top: 8%;
@@ -158,12 +235,42 @@ body {
     width: 10%;
 }
 
+.contentLeft {
+    float: left;
+    width: 20%;
+}
+
+.contentMiddle {
+    float: left;
+    width: 60%;
+}
+
+.contentRight {
+    float: left;
+    width: 20%;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
     margin: 10%;
     display: table;
     clear: both;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.video_fin{
+    position: absolute;
+    top: 8%;
+    right: 0%;
+    width: 50%;
+    height: 50%;
 }
 
 .imageBD {
@@ -206,18 +313,28 @@ body {
 }
 
 .section22 {
-    background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
-    background-size: 100%, 100%;
+     background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
+     background-size: 100%, 100%;
+     background-attachment: fixed;
+     background-color: var(--background-color1);
+ }
+
+
+.sectionFIN {
+    background: url('../assets/images/camera/camera_laser.svg') center right no-repeat;
+    background-size: 60%, 60%;
     background-attachment: fixed;
-    background-color: var(--background-color1);
+    /*background-color: var(--background-color1);*/
 }
+
+
 
 .curseur {
     position: absolute;
     vertical-align: center;
     left: 60px;
-    bottom: 25%;
-    height: 400px;
+    bottom: 15%;
+    height: 60%;
 }
 
 .menuButton {
@@ -236,8 +353,8 @@ body {
     font-size: 2vh;
     font-weight: bold;
     cursor: pointer;
-    height: 7%;
-    width: 13%;
+    height: 8%;
+    width: 12%;
     position: absolute;
     right: 0;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -308,22 +425,41 @@ a {
     color: var(--on-dark-color);
 }
 
+.containerLeft{
+    background-size: 50%, 100%;
+    background-color: red;
+
+}
+
+.containerLeftRight{
+    background-size:50%,100%;
+    background-color:blue
+}
+
+.whiteline{
+    width:3px;
+    height:450px; 
+    background:white;
+    position: absolute;;
+    left: 38%;
+}
+
 .title11 {
     color: var(--on-dark-color);
     font-size: 90px;
-    font-family: "BebasKai";
-    position: fixed;
-    top: 53%;
-    left: 40%;
+    font-family:"BebasKai";
+    position:absolute;
+    top:62%;
+    left:40%;
 }
 
 .title12 {
     color: var(--on-dark-color);
     font-size: 90px;
-    font-family: "BebasKai";
-    position: fixed;
-    top: 70%;
-    left: 40%;
+    font-family:"BebasKai";
+    position:absolute;
+    top:77%;
+    left:40%;
 }
 
 .title13 {
