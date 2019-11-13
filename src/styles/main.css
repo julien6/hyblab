@@ -391,9 +391,14 @@ body {
     background-color: white;
     min-height: 35vh;
     width: 32%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 8%;
+    margin-right: 8%;
     position: relative;
+}
+
+.homeChoiceDiv:hover{
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 .txtHome{
