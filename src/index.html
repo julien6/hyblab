@@ -535,38 +535,27 @@ Si Cédric Villani, auquel s’est finalement rallié l’ancien candidat, reste
 
         <p class="paragraphDiapoFranceCamera">
             <span class="txtWhiteParagraph">
-Depuis 2011, une majorité de villes a continué d’investir. Paris, Lyon, Marseille etc. : la quasi-totalité des métropoles ont misé dans mes technologies.
+                    Depuis 2011, une majorité de villes a continué d’investir. Paris, Lyon, Marseille etc. : <span style="font-weight: bold;"> la quasi-totalité des métropoles ont misé dans mes technologies</span>.
                 Dans le classement européen des villes qui disposent du plus grand nombre de caméras par habitant,
                 Paris et son parc de 33 000 caméras n’arrivent hélas qu’en huitième position, juste devant Sofia et Nice.</span>
         </p>
 
         <!---->
 
-        <div class="row6MuncipSurv">
-            <div class="columnThree">
-                <p class="txtBlack titleIntern">Nantes</p>
-                <p class="pIntern">Laurence Garnier sort son « plan d’urgence pour la sécurité ». Si la candidate de la
-                    droite et du centre est élue maire, elle doublera le nombre de policiers municipaux, les armera de
-                    pistolets, créera 11 annexes de police municipale dans les quartiers, et installera 100 caméras de
-                    vidéosurveillance supplémentaires. Son objectif en six ans : réduire les chiffres de la délinquance
-                    de 30 % à Nantes. (Ouest-France)</p>
-            </div>
-            <div class="columnThree">
-                <p class="txtBlack titleIntern">Toulouse</p>
-                <p class="pIntern">“L'augmentation du trafic des stupéfiants et la multiplication des points de deal
-                    sont un problème” dans la ville rose. Pour régler en partie le fléau, Nadia Pellefigue (mouvement
-                    UNE) souhaite, si elle est élue en 2020, revoir les effectifs de la police nationale à la hausse. Il
-                    manque, selon elle, près de 200 policiers à Toulouse. Elle souhaite à ce propos redéployer les 380
-                    caméras de vidéoprotection que compte la ville à la mesure de «leur efficience». (La dépêche)</p>
-            </div>
-            <div class="columnThree">
-                <p class="txtBlack titleIntern">Marseille</p>
-                <p class="pIntern">Dans le cadre de l’Observatoire Big Data de la tranquillité publique réalisé avec le
-                    leader du marché de la vidéosurveillance Engie Inéo, Caroline Pozmentier, adjointe à la sécurité
-                    publique de Marseille, prévoit le déploiement d’un second millier de caméras dans la ville. De quoi
-                    alimenter les flux du vaste réseau de vidéo-surveillance rendu intelligent grâce au traitement de
-                    l’image.</p>
-            </div>
+        <img src="assets/images/camera/france_pin_camera.svg" id="francePinCam"/>
+        <div class="droneFranceButtons">
+            <button class="dFranceButton txtWhite" id="cButton1" onclick="showInfoCam('nice')">Nice</button>
+            <button class="dFranceButton txtWhite" id="cButton2" onclick="showInfoCam('baudi')">Baudinard-su-Verdon</button>
+            <button class="dFranceButton txtWhite" id="cButton3" onclick="showInfoCam('castres')">Castres</button>
+            <button class="dFranceButton txtWhite" id="cButton4" onclick="showInfoCam('stras')">Strasbourg</button>
+        </div>
+        <div class="txtBlackParagraph camFrancetxtDiv">
+            <p id="clickHereCam" class="txtWhiteParagraph" style="font-style: italic">Cliquez sur l'une des villes pour avoir une description détaillée</p>
+            <p class="cFrancetxt" id="nicetxt"><span style="font-weight: bold">Nice</span> :Voilà ma plus fidèle adepte. Pour <span style="font-weight: bold;">344 000 habitants</span>, comptez <span style="font-weight: bold;">2145 caméras</span> sur la voie publique (et 170 dans les rames du tramway), <span style="font-weight: bold;">125 fonctionnaires</span> territoriaux affectés au centre de vidéosurveillance, et un budget de fonctionnement de <span style="font-weight: bold;">17 millions d'euros</span>. Le paquet. Christian Estrosi avait même eu l’idée d’utiliser la reconnaissance faciale pour contrôler l’entrée des fan zones pendant l'Euro 2016, mais son élan fut retoqué par la Cnil.</p>
+            <p class="cFrancetxt" id="baudinardtxt"><span style="font-weight: bold">Baudinard-sur-Verdon</span> : Tant pis pour la Cnil qui veut limiter mon pouvoir à Nice, ma puissance ne s’arrête pas là ! Les plus petites communes aussi rejoignent le mouvement. Baudinard-sur-Verdon, dans le Var, détient le record. C’est le village le plus surveillé, avec 12 caméras pour 156 habitants (<span style="font-weight: bold;">soit 1 pour 13 têtes</span>) ! </p>
+            <p class="cFrancetxt" id="castrestxt"><span style="font-weight: bold">Castres</span> : Castres, ville moyenne de 40 000 habitants. Dès l'été 2011, la municipalité a déployé un dispositif d'importance avec <span style="font-weight: bold;">80 caméras</span> et des <span style="font-weight: bold;">policiers municipaux</span> qui, <span style="font-weight: bold;">24h/24, visionnent en direct l'ensemble des images</span>. C'est de loin le dispositif le plus imposant du département du Tarn, avec des effectifs dépassant la trentaine et une brigade de nuit. À noter que le maire de la sous-préfecture, Pascal Bugis, a toujours refusé les aides financières de l'État pour installer son dispositif de vidéoprotection. Tout a été réalisé en <span style="font-weight: bold;">fonds propres sur le budget de la ville</span>.</p>
+            <p class="cFrancetxt" id="strasbourgtxt"><span style="font-weight: bold">Strasbourg</span> : Il existe environ <span style="font-weight: bold;">400</span> caméras braquées sur le centre-ville strasbourgeois et sur les quartiers périphériques de l’Eurométropole. Depuis une quinzaine d’années, ces caméras de surveillance <span style="font-weight: bold;">scrutent les rues de l’agglomération 24 heures sur 24</span>. Pour lutter contre l'insécurité routière, la ville de Strasbourg a même sorti l'artillerie lourde début 2019. Elle a mis en place la vidéo-verbalisation pour deux types d'infraction : le <span style="font-weight: bold;">stationnement interdit ou gênant</span> et <span style="font-weight: bold;">l'usage de voies réservées aux bus et aux taxis</span>.
+            </p>
         </div>
 
 
