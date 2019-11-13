@@ -38,17 +38,8 @@ body {
     font-family: BebasKai;
 }
 
-.titleDiapo2 {
-    font-size: 80px;
-    font-weight: bold;
-    line-height: 100px;
-    position: absolute;
-    left: 12%;
-    top: 15%;
-    display: block;
-}
 
-.titleDiapo9 {
+.titleDiapo2 {
     font-size: 80px;
     font-weight: bold;
     line-height: 100px;
@@ -57,6 +48,85 @@ body {
     top: 15%;
     right:12%;
     display: block;
+}
+
+.titleDiapoMondeCamera{
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right:12%;
+    display: block;
+}
+
+.titleDiapoQuoiCamera{
+    font-size: 80px;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right:12%;
+    display: block;
+}
+
+.paragraphDiapoQuoiCamera{
+    position: relative;
+    top: 70px;
+    left: 11%;
+    width: 55%;
+}
+
+.titleDiapoMuniCamera{
+    font-size: 80px;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right:12%;
+    display: block;
+}
+
+.paragraphDiapoMuniCamera {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    width: 55%;
+}
+
+.titleDiapoFranceCamera{
+    font-size: 80px;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right:53%;
+    display: block;
+}
+
+.paragraphDiapoFranceCamera{
+    position: absolute;
+    top: 49%;
+    left: 12%;
+    width: 55%;
+}
+
+.titleDiapoDeriveCamera{
+    font-size: 80px;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right:53%;
+    display: block;
+}
+
+.paragraphDiapoDeriveCamera{
+    position: absolute;
+    top: 32%;
+    left: 12%;
+    width: 55%;
 }
 
 .title91 {
@@ -83,13 +153,9 @@ body {
     width: 55%;
 }
 
-.paragraphDiapo9 {
-    position: absolute;
-    top: 50%;
-    left: 12%;
-    width: 55%;
-}
-.paragraphDiapo12 {
+
+
+.paragraphDiapoMondeCamera {
     position: relative;
     top: 0%;
     left: 11%;
@@ -150,6 +216,12 @@ body {
     top: 33%;
     right: 8%;
     height: 144px;
+}
+
+.imageCameraLaser{
+    position: absolute;
+    top: 33%;
+    right: 8%;
 }
 .whiteline {
     width: 3px;
@@ -231,6 +303,11 @@ body {
 }
 
 .columnSideRight {
+    float: left;
+    width: 10%;
+}
+
+.columnSideRight2{
     float: left;
     width: 10%;
 }
@@ -333,8 +410,8 @@ body {
     position: absolute;
     vertical-align: center;
     left: 60px;
-    bottom: 15%;
-    height: 60%;
+    bottom: 25%;
+    height: 50%;
 }
 
 .menuButton {
@@ -361,6 +438,23 @@ body {
     transform: rotate(-90deg);
 }
 
+.sideButton2 {
+    background-color: var(--button-gray);
+    border: none;
+    color: var(--on-dark-color);
+    text-align: center;
+    font-size: 2vh;
+    font-weight: bold;
+    cursor: pointer;
+    height: 8%;
+    width: 14%;
+    position: absolute;
+    top:25%;
+    right: 0;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: rotate(-90deg);
+}
+
 .currentSideButton {
     background-color: var(--color-red);
 }
@@ -369,8 +463,16 @@ body {
     top: 18%;
 }
 
+.droneSideButton2 {
+    top: 23%;
+}
+
 .cameraSideButton {
     top: 46.5%;
+}
+
+.cameraSideButton2{
+    top:65%;
 }
 
 .recoSideButton {
