@@ -1,5 +1,4 @@
 
-
 .titleDiapoGen {
     font-size: 80px;
     line-height: 100px;
@@ -13,28 +12,55 @@
 
 .paragraphDiapoGen {
     position: relative;
-    top: 130px;
+    top: 190px;
     left: 13%;
     width: 60%;
 }
 
+.paragr6MunicipDrone{
+    position: absolute;
+    top : 350px;
+    left: 13%;
+}
+
+/* Clear floats after the columns */
+.row6MuncipSurv:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 50%;
+}
+
+.row6MuncipSurv {
+    content: "";
+    display: table;
+    clear: both;
+    width: 70%;
+    position: relative;
+    top : 150px;
+    left: 10%;
+}
+
+.paragr6MunicipSurv{
+    position: relative;
+    left: 10%
+}
 
 .paragraphDiapoGenHigh {
     position: relative;
-    top: 40px;
+    top: 0;
     left: 13%;
-    width: 60%;
+    width: 80%;
     display: block;
 }
 
-.paragraphDiapoGenHigh2{
+.paragraphDiapoGenHigh2 {
     position: relative;
     top: 120px;
     left: 13%;
     width: 60%;
     display: block;
 }
-
 
 
 .imageOutil1 {
@@ -64,4 +90,67 @@
 / / border-color: whitesmoke;
 / / border-style: solid;
 / / border-width: 50 px 50 px 50 px 50 px;
+}
+
+.dFranceButton {
+    background-color: transparent;
+    border: none;
+    font-size: 4vh;
+}
+
+#dButton1 {
+    position: absolute;
+    left: 45%;
+}
+
+#dButton2 {
+    position: absolute;
+    left: 65%;
+}
+
+#dButton3 {
+    position: absolute;
+    bottom: 40%;
+    left: 45%;
+}
+
+#dButton4 {
+    position: absolute;
+    bottom: 40%;
+    left: 65%;
+}
+
+#dButton5 {
+    position: absolute;
+    left: 45%;
+    bottom: 32%;
+}
+
+#dButton6 {
+    position: absolute;
+    left: 65%;
+    bottom: 32%;
+}
+
+.droneFrancetxtDiv {
+    position: absolute;
+    left: 45%;
+    top: 92%;
+    width: 45%;
+}
+
+.droneFrancetxt {
+    display: none;
+    font-size: 2vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    bottom: 20%;
+}
+
+#francePinDrones {
+    position: absolute;
+    width: 23%;
+    left: 15%;
 }

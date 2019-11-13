@@ -30,12 +30,15 @@ body {
 
 .txtBlackParagraph {
     color: black;
-    font-family: BebasKai;
+    /*font-family: BebasKai;*/
 }
 
 .txtWhiteParagraph {
     color: white;
+<<<<<<< HEAD
     font-family: ;
+=======
+>>>>>>> 4a68e1dbf2ac11650ffd0102819dbf5964dd9c52
 }
 
 .txtBlack {
@@ -103,6 +106,38 @@ body {
     background-size: 100%, 100%;
 }
 
+.popup_bug{
+    background-color: whitesmoke;
+    margin-left: 25%;
+    opacity: 0.8;
+    position: center;
+    width: 50%;
+}
+
+.titleDiapoBug {
+    font-size: 80px;
+    line-height: 100px;
+    position: center;
+    left: 50%;
+    top: 5%;
+    width: 50%;
+    display: block;
+}
+
+#video_background{
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 70%;
+    min-height: 70%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
 
 .columnSideLeft {
     float: left;
@@ -252,6 +287,47 @@ body {
     bottom: 18%
 }
 
+.columnIntern {
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+
+.titleIntern{
+    font-size: 30px;
+}
+
+.pIntern{
+
+}
+
+.graphCestQuoi{
+    height: 230px;
+    position: relative;
+    top: 200px;
+    left: 30%;
+}
+
+.diap1P{
+    position: relative;
+    top: 450px;
+}
+
+.rowIntern{
+    position: absolute;
+    left: 12%;
+    content: "";
+    display: table;
+    clear: both;
+    width:83%;
+}
+
+/* Clear floats after the columns */
+.rowIntern:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 a {
     text-decoration: none;
