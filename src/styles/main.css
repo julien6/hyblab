@@ -115,26 +115,7 @@ body {
     font-family: BebasKai;
 }
 
-.section11 {
-    background: url('../assets/images/camera.jpg') center center no-repeat;
-    background-size: 100%, 100%;
-    background-attachment: fixed;
-}
 
-.imageCamera{
-    position: absolute;
-    top: 33%;
-    right: 8%;
-    height: 144px;
-}
-.whiteline {
-    width: 3px;
-    height: 400px;
-    background: white;
-    position: absolute;
-    left: 480px;
-    top: 80px
-}
 
 .logos{
     /*margin-left: 3%;
@@ -293,6 +274,30 @@ body {
     /*background-color: var(--background-color1);*/
 }
 
+
+/*------------- PAGE ACCUEIL----------------*/
+.section11 {
+    background: url('../assets/images/camera.jpg') center center no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+
+.imageCamera{
+    position: absolute;
+    top: 33%;
+    right: 8%;
+    height: 144px;
+}
+.whiteline {
+    width: 3px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    left: 480px;
+    top: 80px
+}
+
+/*------------- FIN PAGE ACCUEIL----------------*/
 
 
 .curseur {
