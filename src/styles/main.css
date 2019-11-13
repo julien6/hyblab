@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'BebasKai'; /*a name to be used later*/
-    src: url("../assets/font/BebasKai.ttf"); /*URL to font*/
+    font-family: 'BebasKai'; !*a name to be used later*!
+    src: url("../assets/font/BebasKai.ttf"); !*URL to font*!
 }
 
 * {
@@ -21,7 +21,7 @@
 
 html,
 body {
-    font-family: BebasKai, sans-serif;
+    font-family: Calibri, sans-serif;
 }
 
 .RedImg {
@@ -30,7 +30,7 @@ body {
 
 .txtBlack {
     color: black;
-    font-family: BebasKai;
+    /*font-family: BebasKai;*/
 }
 
 .txtWhite{
@@ -397,7 +397,27 @@ body {
     background: url('../assets/images/background/background_technopolice.svg') center center no-repeat;
     background-size: 100%, 100%;
     background-attachment: fixed;
-    background-color: var(--background-color1);
+    background-color: white;
+}
+
+.titleSlide2 {
+    font-size: 10vh;
+    font-weight: bold;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top:7%;
+    right:12%;
+    display: block;
+}
+
+.paragraphSlide2 {
+    position: relative;
+    font-size: 2.5vh;
+    top: 0;
+    left: 11%;
+    font-family: Calibri;
+    width: 60%;
 }
 
 /**------------------------------------------FIN DIAPO 2 ------------------------ -----------**/
@@ -422,6 +442,24 @@ body {
     top: 33%;
     right: 8%;
     height: 144px;
+}
+
+.title11 {
+    color: var(--on-dark-color);
+    font-size: 90px;
+    font-family:"BebasKai";
+    position:absolute;
+    top:50%;
+    left:40%;
+}
+
+.title12 {
+    color: var(--on-dark-color);
+    font-size: 90px;
+    font-family:"BebasKai";
+    position:absolute;
+    top:65%;
+    left:40%;
 }
 .whiteline {
     width: 4px;
@@ -578,29 +616,13 @@ a {
 
 .whiteline{
     width:3px;
-    height:450px; 
+    height:450px;
     background:white;
     position: absolute;;
     left: 38%;
 }
 
-.title11 {
-    color: var(--on-dark-color);
-    font-size: 90px;
-    font-family:"BebasKai";
-    position:absolute;
-    top:50%;
-    left:40%;
-}
 
-.title12 {
-    color: var(--on-dark-color);
-    font-size: 90px;
-    font-family:"BebasKai";
-    position:absolute;
-    top:65%;
-    left:40%;
-}
 
 .title13 {
     color: var(--on-dark-color);
