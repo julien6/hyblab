@@ -38,9 +38,8 @@ body {
     font-family: BebasKai;
 }
 
-
 .titleDiapo2 {
-    font-size: 10vh;
+    font-size: 80px;
     font-weight: bold;
     line-height: 100px;
     position: absolute;
@@ -373,17 +372,6 @@ body {
     top: 0%;
     left: 12%;
     width: 100%;
-}
-
-
-.columnSideLeft {
-    float: left;
-    width: 10%;
-}
-
-.columnMiddle {
-    float: left;
-    width: 80%;
 }
 
 .columnSideRight {
