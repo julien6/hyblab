@@ -1,15 +1,14 @@
 .paragraphDiapoGen {
     position: relative;
     top: 140px;
-    left: 10%;
+    left: 15%;
     width: 70%;
-    display: block;
 }
 
 .paragraphDiapoGenHigh {
     position: relative;
     top: 40px;
-    left: 11%;
+    left: 15%;
     width: 60%;
     display: block;
 }
@@ -19,7 +18,7 @@
     font-weight: bold;
     line-height: 100px;
     position: absolute;
-    left: 12%;
+    left: 15%;
     top: 15%;
     display: block;
     width: 50%;
