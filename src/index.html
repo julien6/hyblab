@@ -272,13 +272,29 @@ De taille réduite et moins coûteux qu’un avion, il représente une alternati
                 <div class="blackLine"></div>
             </div>
             <div class="columnMiddle">
-
-                <p class="titleDiapoGen"><span class="txtWhite">OU EN EST ON </span><span
+                <p class="titleDiapoGen"><span class="txtWhite">Où EN EST ON </span><span
                         class="txtRed">EN FRANCE </span><span
                         class="txtWhite">?</span></p>
-                <p class="paragraphDiapoGenHigh"><span class="txtBlackParagraph">Pour en savoir plus sur ces enjeux, cliquez sur l'un des 3 moyens de
-                    vidéosurveillance Lorem ipsum dolor sitamet, consectetur adipiscing elit. Etiam ut congue tellus. Donec ac suscipit risus.
-                    Nam et quam placerat, ultrices dolor commodo, congue diam.</span></p>
+                <p class="paragraphDiapoGenHigh"><span class="txtBlackParagraph">Vous ne vous sentez pas concerné.e.s par l’utilisation de drones de surveillance, de pigeons-robots et de pulvérisateurs électriques depuis le ciel ? Pourtant en France, Technopolice traverse une étape plus qu’embryonnaire…Selon vous, qui est devenu la nouvelle lubie des maires français ? </span>
+                   <br/> <span class="txtBlackParagraph" style="font-style: italic">Cliquez sur l'une des villes pour avoir une description détaillée</span>
+                </p>
+                <img src="assets/images/drones/france_pin_drones.svg" id="francePinDrones"/>
+                <div class="droneFranceButtons">
+                    <button class="dFranceButton txtWhite" id="dButton1" onclick="showInfo('cannes')">Cannes</button>
+                    <button class="dFranceButton txtWhite" id="dButton2" onclick="showInfo('charente')">Charentes-Maritime</button>
+                    <button class="dFranceButton txtWhite" id="dButton3" onclick="showInfo('essone')">Essonne</button>
+                    <button class="dFranceButton txtWhite" id="dButton4" onclick="showInfo('istres')">Istres</button>
+                    <button class="dFranceButton txtWhite" id="dButton5" onclick="showInfo('pascalais')">Pas-de-Calais</button>
+                    <button class="dFranceButton txtWhite" id="dButton6" onclick="showInfo('evreux')">&Eacute;vreux</button>
+                </div>
+                <div class="txtBlackParagraph droneFrancetxtDiv">
+                    <p class="droneFrancetxt" id="cannestxt"><span style="font-weight: bold">Cannes</span> : C’est très récemment que la police municipale de Cannes a rejoint la valse bourdonnante des auxiliaires de surveillance avec l’acquisition d’un drone haute performance. Équipé d’une caméra sophistiquée, il vient renforcer depuis août 2019 le dispositif de sécurité dans les massifs forestiers et de prévention des incendies dans la région.</p>
+                    <p class="droneFrancetxt" id="essonetxt"><span style="font-weight: bold">Essonne</span> : C’est pour traquer les chauffards imprudents que la police Municipale de l’Essonne a choisi de se procurer un drone en mai 2019. Ce premier test  de contrôle routier depuis le ciel montrerait un nombre de verbalisations doublé par rapport aux contrôles classiques...</p>
+                    <p class="droneFrancetxt" id="pasdecalaistxt"><span style="font-weight: bold">Pas de Calais</span> : Pour lutter contre la traversée clandestine de la Manche, les gouvernements français et britanniques se sont accordés en janvier 2019 pour que la préfecture se dote de plusieurs drones. Survolant les plages du littoral, les engins traquent les migrants envisageant des départs illégaux.</p>
+                    <p class="droneFrancetxt" id="charentestxt"><span style="font-weight: bold">Charentes-Maritimes</span> : Les élus de Charentes Maritimes ont remis en juin 2019 quatre drones aux services sécurités intérieures dont un à la police. Sont envisagées des missions tous azimuts : surveillance des manifestations Gilets-Jaunes, filature aérienne, découverte de scènes de crime…</p>
+                    <p class="droneFrancetxt" id="istrestxt"><span style="font-weight: bold">Istres</span> : Équipée de 2 drones depuis avril 2018 , Istres est la première commune à doter la police municipale de tels outils. Les 90 caméras de surveillance pour 42 000 habitants ne semblant pas suffire aux 80 policiers en fonction, les deux engins faciliteront grâce à leur caméra enregistrant en 4k la transmission, la localisation et l’identification en temps réel des auteurs de méfaits. </p>
+                    <p class="droneFrancetxt" id="evreuxtxt"><span style="font-weight: bold">&Eacute;vreux</span> : Après le doublage des effectifs de police depuis 2015, la municipalité d’Évreux a décidé d’étirer ses moyens jusqu’à l’acquisition de deux drones, servant pour la surveillance de grands rassemblements et de stationnement illicites des gens du voyage…Cerise sur le gâteau pour la commune décidément investie dans le développement de son dispositif de sécurité : les effectifs policiers vont prochainement être équipés de caméras individuelles lors de leurs interventions sur la voie publique !</p>
+                </div>
 
                 <img class="imageOutil" src="assets/images/drones/drones_x3.png" alt="drones">
                 <img class="ombreDrone3" src="assets/images/drones/ombres_drone_x3.png" alt="drones">
@@ -646,6 +662,9 @@ De taille réduite et moins coûteux qu’un avion, il représente une alternati
 <script src="vendors/d3-geo-projection.v2.min.js"></script>
 
 -->
+
+<script src="scripts/FranceCam.js"></script>
+<script src="scripts/FranceDrones.js"></script>
 <script src="scripts/main.js"></script>
 </body>
 
