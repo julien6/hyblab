@@ -223,34 +223,24 @@ body {
     font-weight: bold;
     cursor: pointer;
     height: 5%;
-    width: 17%;
+    width: 18%;
     position: absolute;
     top: 28%;
-    right: 0;
+    right: -4.7%;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transform: rotate(-90deg);
 }
 
 .currentSideButton {
-    background-color: var(--color-red);
-}
-
-.droneSideButton {
-    top: 18%;
+    background-color: #E62E2B;
 }
 
 .droneSideButton2 {
-    top: 23%;
-    right: -1%;
-}
-
-.cameraSideButton {
-    top: 46.5%;
+    top: 25.25%;
 }
 
 .cameraSideButton2 {
-    top: 65%;
-    right: -1%;
+    top: 69.5%;
 }
 
 .recoSideButton {

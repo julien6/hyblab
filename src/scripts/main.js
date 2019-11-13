@@ -11,7 +11,11 @@ function goToSlide(name){
     if(name === "camera"){
         ws.goToSlide(8, false);
     }
+    if(name === "recFac"){
+        ws.goToSlide(3, false); // TODO : last slide
+    }
+
     if(name === "home"){
-        ws.goToSlide(2, true);
+        ws.goToSlide(1, true);
     }
 }

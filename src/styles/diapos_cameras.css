@@ -87,9 +87,15 @@
 
 .imageCamera {
     position: absolute;
+<<<<<<< HEAD
     width: 15%;
     top: 33%;
     right: 9%;
+=======
+    width: 12%;
+    top: 57%;
+    right: 5.5%;
+>>>>>>> 93d9cd6aff8d9d431bde8e1fe6c7cafbbadd3ead
     height: 144px;
 }
 
