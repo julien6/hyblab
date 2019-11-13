@@ -216,12 +216,36 @@
                 <div class="blackLine"></div>
             </div>
             <div class="columnMiddle">
-                <p class="titleDiapoGen"><span class="txtWhite">OU EN EST ON </span><span
+                <p class="titleDiapoGen"><span class="txtWhite">Où EN EST ON </span><span
                         class="txtRed">EN FRANCE </span><span
                         class="txtWhite">?</span></p>
                 <p class="paragraphDiapoGenHigh"><span class="txtBlackParagraph">Pour en savoir plus sur ces enjeux, cliquez sur l'un des 3 moyens de
                     vidéosurveillance Lorem ipsum dolor sitamet, consectetur adipiscing elit. Etiam ut congue tellus. Donec ac suscipit risus.
                     Nam et quam placerat, ultrices dolor commodo, congue diam.</span></p>
+                <div class="droneFranceButtons">
+                    <table>
+                        <tr>
+                            <td><button class="dFranceButton txtWhite" onclick="showInfo('cannes')">Cannes</button></td>
+                            <td><button class="dFranceButton txtWhite" onclick="showInfo('charente')">Charentes-Maritime</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="dFranceButton txtWhite" onclick="showInfo('essone')">Essonne</button></td>
+                            <td><button class="dFranceButton txtWhite" onclick="showInfo('istres')">Istres</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="dFranceButton txtWhite" onclick="showInfo('pascalais')">Pas-de-Calais</button></td>
+                            <td><button class="dFranceButton txtWhite" onclick="showInfo('evreux')">&Eacute;vreux</button></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="txtBlackParagraph droneFrancetxtDiv">
+                    <p class="droneFrancetxt" id="cannestxt">       a</p>
+                    <p class="droneFrancetxt" id="charentestxt">    b</p>
+                    <p class="droneFrancetxt" id="essonetxt">       c</p>
+                    <p class="droneFrancetxt" id="istrestxt">       d</p>
+                    <p class="droneFrancetxt" id="pasdecalaistxt">  e</p>
+                    <p class="droneFrancetxt" id="evreuxtxt">       f</p>
+                </div>
 
                 <img class="imageOutil" src="assets/images/drones/drones_x3.png" alt="drones">
                 <img class="ombreDrone3" src="assets/images/drones/ombres_drone_x3.png" alt="drones">
@@ -552,6 +576,9 @@
 <script src="vendors/d3-geo-projection.v2.min.js"></script>
 
 -->
+
+<script src="scripts/FranceCam.js"></script>
+<script src="scripts/FranceDrones.js"></script>
 <script src="scripts/main.js"></script>
 </body>
 
