@@ -6,16 +6,12 @@ let ws = new WebSlides({
 
 function goToSlide(name){
     if(name === "drone"){
-        ws.goToSlide(2, true);
+        ws.goToSlide(3, true);
     }
     if(name === "camera"){
-        ws.goToSlide(3, false);
+        ws.goToSlide(8, false);
     }
-    if(name === "recFac"){
-        ws.goToSlide(3, false);
-    }
-
     if(name === "home"){
-        ws.goToSlide(1, true);
+        ws.goToSlide(2, true);
     }
 }
