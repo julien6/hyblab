@@ -295,30 +295,24 @@ body {
 }
 
 .section33 {
-    background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size: 100%, 100%;
-    background-attachment: fixed;
-    background-color: var(--background-color2);
+    background: var(--background-color2) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
     border-color: var(--on-dark-color) smoke;
     border-style: solid;
     border-width: 50px 50px 50px 50px;
 }
 
 .section99 {
-    background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size: 100%, 100%;
-    background-attachment: fixed;
-    background-color: var(--background-color4);
+    background: var(--background-color4) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
     border-color: var(--on-dark-color) smoke;
     border-style: solid;
     border-width: 50px 50px 50px 50px;
 }
 
 .sectionGen {
-    background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size: 100%, 100%;
-    background-attachment: fixed;
-    background-color: #C2C2C2;
+    background: #C2C2C2 url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
 / / border-color: whitesmoke;
 / / border-style: solid;
 / / border-width: 50 px 50 px 50 px 50 px;
@@ -472,20 +466,16 @@ body {
 }
 
 .section22 {
-    background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
     background-size: 100%, 100%;
-    background-attachment: fixed;
-    background-color: var(--background-color1);
+    background: var(--background-color1) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
 }
 
 
 
 /**------------------------------ DIAPO 2 : BIENVENUE A TECHNOPOLICE -----------------------**/
 .sectionSlide2 {
-    background: url('../assets/images/background/background_technopolice.svg') center center no-repeat;
     background-size: 100%, 100%;
-    background-attachment: fixed;
-    background-color: white;
+    background: white url('../assets/images/background/background_technopolice.svg') no-repeat fixed center center;
 }
 
 .titleSlide2 {
@@ -511,18 +501,16 @@ body {
 /**------------------------------------------FIN DIAPO 2 ------------------------ -----------**/
 
 .sectionFIN {
-    background: url('../assets/images/camera/camera_laser.svg') center right no-repeat;
     background-size: 60%, 60%;
-    background-attachment: fixed;
+    background: url('../assets/images/camera/Camera_laser.svg') no-repeat fixed center right;
     /*background-color: var(--background-color1);*/
 }
 
 
 /*------------- PAGE ACCUEIL----------------*/
 .section11 {
-    background: url('../assets/images/camera.jpg') center center no-repeat;
     background-size: 100%, 100%;
-    background-attachment: fixed;
+    background: url('../assets/images/camera.jpg') no-repeat fixed center center;
 }
 
 .imageCamera {
@@ -684,6 +672,9 @@ body {
     left: 0;
 }
 
+/*
+FIN HOME
+ */
 
 
 a {
