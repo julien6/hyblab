@@ -207,7 +207,6 @@ body {
 }
 
 
-<<<<<<< HEAD
 .imageCamera{
     position: absolute;
     top: 33%;
@@ -220,16 +219,6 @@ body {
     top: 33%;
     right: 8%;
 }
-.whiteline {
-    width: 3px;
-    height: 400px;
-    background: white;
-    position: absolute;
-    left: 480px;
-    top: 80px
-}
-=======
->>>>>>> a19179f83659626e44fa9cec2d31fbf8a3a86b93
 
 .logos{
     /*margin-left: 3%;
