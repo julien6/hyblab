@@ -1,6 +1,5 @@
 .titleDiapoMondeCamera {
-    font-size: 80px;
-    font-weight: bold;
+    font-size: 9vh;
     line-height: 100px;
     position: absolute;
     left: 12%;
@@ -10,7 +9,7 @@
 }
 
 .titleDiapoQuoiCamera {
-    font-size: 80px;
+    font-size: 9vh;
     line-height: 100px;
     position: absolute;
     left: 12%;
@@ -28,7 +27,7 @@
 }
 
 .titleDiapoMuniCamera {
-    font-size: 80px;
+    font-size: 9vh;
     line-height: 100px;
     position: absolute;
     left: 12%;
@@ -63,7 +62,7 @@
 }
 
 .titleDiapoDeriveCamera {
-    font-size: 80px;
+    font-size: 9vh;
     line-height: 100px;
     position: absolute;
     left: 12%;
