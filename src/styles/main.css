@@ -207,9 +207,9 @@ body {
 }
 
 
-<<<<<<< HEAD
 .imageCamera{
     position: absolute;
+    width:15%;
     top: 33%;
     right: 8%;
     height: 144px;
@@ -217,8 +217,10 @@ body {
 
 .imageCameraLaser{
     position: absolute;
-    top: 33%;
-    right: 8%;
+    width:70%;
+    height:100%;
+    top: 32%;
+    right: 7%;
 }
 .whiteline {
     width: 3px;
@@ -228,8 +230,6 @@ body {
     left: 480px;
     top: 80px
 }
-=======
->>>>>>> a19179f83659626e44fa9cec2d31fbf8a3a86b93
 
 .logos{
     /*margin-left: 3%;
@@ -449,7 +449,7 @@ body {
     font-weight: bold;
     cursor: pointer;
     height: 8%;
-    width: 12%;
+    width: 17%;
     position: absolute;
     right: 0;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -464,10 +464,10 @@ body {
     font-size: 2vh;
     font-weight: bold;
     cursor: pointer;
-    height: 8%;
-    width: 14%;
+    height: 5%;
+    width: 17%;
     position: absolute;
-    top:25%;
+    top:28%;
     right: 0;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transform: rotate(-90deg);
@@ -483,6 +483,7 @@ body {
 
 .droneSideButton2 {
     top: 23%;
+    right:-1%;
 }
 
 .cameraSideButton {
@@ -491,6 +492,7 @@ body {
 
 .cameraSideButton2{
     top:65%;
+    right:-1%;
 }
 
 .recoSideButton {
@@ -545,9 +547,7 @@ body {
     left: 0;
 }
 
-.reconnaissanceFaciale{
 
-}
 
 a {
     text-decoration: none;
