@@ -33,8 +33,8 @@ body {
     font-family: BebasKai;
 }
 
-.txtWhite{
-    color:white;
+.txtWhite {
+    color: white;
     font-family: BebasKai;
 }
 
@@ -45,46 +45,46 @@ body {
     position: absolute;
     left: 12%;
     top: 15%;
-    right:12%;
+    right: 12%;
     display: block;
     width: 60%;
 }
 
-.titleDiapoMondeCamera{
+.titleDiapoMondeCamera {
     font-size: 80px;
     font-weight: bold;
     line-height: 100px;
     position: absolute;
     left: 12%;
     top: 15%;
-    right:12%;
+    right: 12%;
     display: block;
 }
 
-.titleDiapoQuoiCamera{
+.titleDiapoQuoiCamera {
     font-size: 80px;
     line-height: 100px;
     position: absolute;
     left: 12%;
     top: 15%;
-    right:12%;
+    right: 12%;
     display: block;
 }
 
-.paragraphDiapoQuoiCamera{
+.paragraphDiapoQuoiCamera {
     position: relative;
     top: 70px;
     left: 11%;
     width: 55%;
 }
 
-.titleDiapoMuniCamera{
+.titleDiapoMuniCamera {
     font-size: 80px;
     line-height: 100px;
     position: absolute;
     left: 12%;
     top: 15%;
-    right:12%;
+    right: 12%;
     display: block;
 }
 
@@ -95,34 +95,34 @@ body {
     width: 55%;
 }
 
-.titleDiapoFranceCamera{
+.titleDiapoFranceCamera {
     font-size: 80px;
     line-height: 100px;
     position: absolute;
     left: 12%;
     top: 15%;
-    right:53%;
+    right: 53%;
     display: block;
 }
 
-.paragraphDiapoFranceCamera{
+.paragraphDiapoFranceCamera {
     position: absolute;
     top: 49%;
     left: 12%;
     width: 55%;
 }
 
-.titleDiapoDeriveCamera{
+.titleDiapoDeriveCamera {
     font-size: 80px;
     line-height: 100px;
     position: absolute;
     left: 12%;
     top: 15%;
-    right:53%;
+    right: 53%;
     display: block;
 }
 
-.paragraphDiapoDeriveCamera{
+.paragraphDiapoDeriveCamera {
     position: absolute;
     top: 32%;
     left: 12%;
@@ -164,7 +164,7 @@ body {
     position: absolute;
     left: 12%;
     top: 15%;
-    right:12%;
+    right: 12%;
     display: block;
 }
 
@@ -200,6 +200,7 @@ body {
     left: 12%;
     width: 55%;
 }
+
 .paragraphDiapo12 {
     position: relative;
     top: 0%;
@@ -250,18 +251,19 @@ body {
     font-family: BebasKai;
 }
 
-.imageCamera{
+.imageCamera {
     position: absolute;
     top: 33%;
     right: 8%;
     height: 144px;
 }
 
-.imageCameraLaser{
+.imageCameraLaser {
     position: absolute;
     top: 33%;
     right: 8%;
 }
+
 .whiteline {
     width: 3px;
     height: 400px;
@@ -271,15 +273,15 @@ body {
     top: 80px
 }
 
-.logos{
+.logos {
     /*margin-left: 3%;
     margin-right: 3%;
     margin-top: 3%;
     margin-bottom: 3%;*/
-    size:5px;
+    size: 5px;
 }
 
-.footer{
+.footer {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -293,9 +295,9 @@ body {
     background-size: 100%, 100%;
     background-attachment: fixed;
     background-color: var(--background-color2);
-    border-color: var(--on-dark-color)smoke;
+    border-color: var(--on-dark-color) smoke;
     border-style: solid;
-    border-width: 50 px 50 px 50 px 50 px;
+    border-width: 50px 50px 50px 50px;
 }
 
 .section99 {
@@ -303,9 +305,9 @@ body {
     background-size: 100%, 100%;
     background-attachment: fixed;
     background-color: var(--background-color4);
-    border-color: var(--on-dark-color)smoke;
+    border-color: var(--on-dark-color) smoke;
     border-style: solid;
-    border-width: 50 px 50 px 50 px 50 px;
+    border-width: 50px 50px 50px 50px;
 }
 
 .sectionGen {
@@ -377,7 +379,7 @@ body {
     width: 10%;
 }
 
-.columnSideRight2{
+.columnSideRight2 {
     float: left;
     width: 10%;
 }
@@ -407,7 +409,7 @@ body {
     clear: both;
 }
 
-.video_fin{
+.video_fin {
     position: absolute;
     top: 8%;
     right: 0%;
@@ -455,11 +457,11 @@ body {
 }
 
 .section22 {
-     background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
-     background-size: 100%, 100%;
-     background-attachment: fixed;
-     background-color: var(--background-color1);
- }
+    background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    background-color: var(--background-color1);
+}
 
 
 .sectionFIN {
@@ -477,12 +479,13 @@ body {
     background-attachment: fixed;
 }
 
-.imageCamera{
+.imageCamera {
     position: absolute;
     top: 33%;
     right: 8%;
     height: 144px;
 }
+
 .whiteline {
     width: 4px;
     height: 90%;
@@ -538,7 +541,7 @@ body {
     height: 8%;
     width: 14%;
     position: absolute;
-    top:25%;
+    top: 25%;
     right: 0;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transform: rotate(-90deg);
@@ -560,8 +563,8 @@ body {
     top: 46.5%;
 }
 
-.cameraSideButton2{
-    top:65%;
+.cameraSideButton2 {
+    top: 65%;
 }
 
 .recoSideButton {
@@ -572,7 +575,7 @@ body {
     Home section
  */
 
-.homeChoiceDiv{
+.homeChoiceDiv {
     display: block;
     background-color: white;
     min-height: 35vh;
@@ -582,12 +585,12 @@ body {
     position: relative;
 }
 
-.homeChoiceDiv:hover{
+.homeChoiceDiv:hover {
     transform: scale(1.03);
     cursor: pointer;
 }
 
-.txtHome{
+.txtHome {
     font-weight: bold;
     font-size: 4vh;
     text-align: center;
@@ -595,28 +598,28 @@ body {
     top: 28vh;
 }
 
-.drone{
+.drone {
     position: absolute;
     width: 80%;
     left: 10%;
     top: 15%;
 }
 
-.videoSurveillance1{
+.videoSurveillance1 {
     position: absolute;
     width: 50%;
     top: 5%;
     right: 0;
 }
 
-.videoSurveillance2{
+.videoSurveillance2 {
     position: absolute;
     width: 33%;
     top: 5%;
     left: 0;
 }
 
-.reconnaissanceFaciale{
+.reconnaissanceFaciale {
 
 }
 
@@ -625,21 +628,21 @@ a {
     color: var(--on-dark-color);
 }
 
-.containerLeft{
+.containerLeft {
     background-size: 50%, 100%;
     background-color: red;
 
 }
 
-.containerLeftRight{
-    background-size:50%,100%;
-    background-color:blue
+.containerLeftRight {
+    background-size: 50%, 100%;
+    background-color: blue
 }
 
-.whiteline{
-    width:3px;
-    height:450px; 
-    background:white;
+.whiteline {
+    width: 3px;
+    height: 450px;
+    background: white;
     position: absolute;;
     left: 38%;
 }
@@ -647,19 +650,19 @@ a {
 .title11 {
     color: var(--on-dark-color);
     font-size: 90px;
-    font-family:"BebasKai";
-    position:absolute;
-    top:50%;
-    left:40%;
+    font-family: "BebasKai";
+    position: absolute;
+    top: 50%;
+    left: 40%;
 }
 
 .title12 {
     color: var(--on-dark-color);
     font-size: 90px;
-    font-family:"BebasKai";
-    position:absolute;
-    top:65%;
-    left:40%;
+    font-family: "BebasKai";
+    position: absolute;
+    top: 65%;
+    left: 40%;
 }
 
 .title13 {
