@@ -26,6 +26,14 @@
     line-height: 20px;
 }
 
+.paragraphDiapoQuoiCamera2{
+    position: relative;
+    top: 40px;
+    left: 11%;
+    width: 70%;
+    line-height: 20px;
+}
+
 .titleDiapoMuniCamera {
     font-size: 9vh;
     line-height: 100px;
@@ -56,9 +64,9 @@
 
 .paragraphDiapoFranceCamera {
     position: absolute;
-    top: 30%;
+    top: 22%;
     left: 12%;
-    width: 55%;
+    width: 80%;
 }
 
 .titleDiapoDeriveCamera {
@@ -79,11 +87,13 @@
 }
 
 
+
 .paragraphDiapoMondeCamera {
     position: relative;
-    top: 40%;
+    top: 90px;
     left: 11%;
-    width: 55%;
+    width: 70%;
+    line-height: 20px;
 }
 
 .txtBlackParagraphCamera {
@@ -98,14 +108,24 @@
     font-weight: normal;
 }
 
-.txtBlackTitleCamera {
-    color: black;
-    font-family: BebasKai;
-    font-size: 20px;
+.txtWhiteParagraphCamera{
+    color: white;
     line-height: 2px;
     font-weight: normal;
+}
+
+.txtBlackTitleCamera{
+    color: black;
+    font-weight: bold;
+    line-height: 2px;
     position: relative;
-    top: 50px;
+}
+
+.txtWhiteTitleCamera{
+    color: white;
+    font-weight: bold;
+    line-height: 2px;
+    position: relative;
 }
 
 .imageCamera {
@@ -125,6 +145,21 @@
     overflow: hidden;
 }
 
+.imageCameraLaserAlerte {
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    top: 50%;
+    right: 4%;
+    overflow: hidden;
+}
+
+.imageDroneAlerte {
+    position: absolute;
+    top: 8%;
+    right: 10%;
+    height: 720px;
+}
 #francePinCam {
     position: absolute;
     width: 23%;
