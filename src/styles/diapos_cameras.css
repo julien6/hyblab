@@ -56,9 +56,10 @@
 
 .paragraphDiapoFranceCamera {
     position: absolute;
-    top: 49%;
+    top: 40%;
     left: 12%;
     width: 55%;
+    font-size: 30px;
 }
 
 .titleDiapoDeriveCamera {
