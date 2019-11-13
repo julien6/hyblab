@@ -89,7 +89,7 @@
     position: absolute;
     width: 15%;
     top: 33%;
-    right: 8%;
+    right: 9%;
     height: 144px;
 }
 
@@ -104,5 +104,4 @@
 .section99 {
     border-color: var(--on-dark-color) smoke;
     border-style: solid;
-    border-width: 50px 50px 50px 50px;
 }
