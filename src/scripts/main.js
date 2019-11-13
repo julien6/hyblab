@@ -19,3 +19,9 @@ function goToSlide(name){
         ws.goToSlide(2, true);
     }
 }
+
+let slide = ws.slides[7];
+
+slide.addEventListener('slide:disable', event => {
+    goToSlide(13);
+});
