@@ -1,0 +1,52 @@
+/*------------- PAGE ACCUEIL----------------*/
+.section11 {
+    background-size: 100%, 100%;
+    background: url('../assets/images/camera.jpg') no-repeat fixed center center;
+}
+
+.title11 {
+    color: var(--on-dark-color);
+    font-size: 90px;
+    font-family: "BebasKai";
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.title12 {
+    color: var(--on-dark-color);
+    font-size: 90px;
+    font-family: "BebasKai";
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+
+.whiteline {
+    width: 4px;
+    height: 90%;
+    background: white;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+}
+
+.title13 {
+    color: var(--on-dark-color);
+    font-size: 35px;
+    font-family: "BebasKai";
+    position: fixed;
+    top: 15%;
+    left: 20%;
+}
+
+.title14 {
+    color: var(--on-dark-color);
+    font-size: 35px;
+    font-family: "BebasKai";
+    position: fixed;
+    top: 21%;
+    left: 20%;
+}
+
+/*------------- FIN PAGE ACCUEIL----------------*/
