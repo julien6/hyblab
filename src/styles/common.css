@@ -68,6 +68,11 @@ body {
     background-size: 100%, 100%;
 }
 
+.sectionColor0 {
+    background: white url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background-size: 100%, 100%;
+}
+
 .sectionColor1 {
     background: #EBEBEB url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
     background-size: 100%, 100%;
