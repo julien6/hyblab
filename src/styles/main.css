@@ -48,6 +48,17 @@ body {
     display: block;
 }
 
+.titleDiapo9 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right:12%;
+    display: block;
+}
+
 .title91 {
     font-size: 80px;
     font-weight: bold;
@@ -65,7 +76,20 @@ body {
     width: 70%;
 }
 
+.paragraphDiapo4 {
+    position: relative;
+    top: 70px;
+    left: 11%;
+    width: 55%;
+}
+
 .paragraphDiapo9 {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    width: 55%;
+}
+.paragraphDiapo12 {
     position: relative;
     top: 0%;
     left: 11%;
@@ -144,6 +168,15 @@ body {
     border-width: 50 px 50 px 50 px 50 px;
 }
 
+.section99 {
+    background: url('../assets/images/background_effet_ligne.png') center center no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    background-color: var(--background-color4);
+    border-color: var(--on-dark-color)smoke;
+    border-style: solid;
+    border-width: 50 px 50 px 50 px 50 px;
+}
 .imageOutil {
     position: absolute;
     top: 8%;
@@ -266,6 +299,7 @@ body {
      background-attachment: fixed;
      background-color: var(--background-color1);
  }
+
 
 .sectionFIN {
     background: url('../assets/images/camera/camera_laser.svg') center right no-repeat;
