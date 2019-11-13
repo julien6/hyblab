@@ -95,8 +95,7 @@
 
 .imageCameraLaser {
     position: absolute;
-    width: 70%;
-    height: 100%;
-    top: 32%;
-    right: 7%;
+    top: 55%;
+    right: 4.5%;
+    height: 600px;
 }
