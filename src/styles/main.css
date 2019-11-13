@@ -411,18 +411,21 @@ body {
 
 .drone{
     position: absolute;
+    width: 80%;
     left: 10%;
     top: 15%;
 }
 
 .videoSurveillance1{
     position: absolute;
+    width: 50%;
     top: 5%;
     right: 0;
 }
 
 .videoSurveillance2{
     position: absolute;
+    width: 33%;
     top: 5%;
     left: 0;
 }
