@@ -17,6 +17,34 @@
     width: 60%;
 }
 
+.paragr6MunicipDrone{
+    position: absolute;
+    top : 350px;
+    left: 13%;
+}
+
+/* Clear floats after the columns */
+.row6MuncipSurv:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 50%;
+}
+
+.row6MuncipSurv {
+    content: "";
+    display: table;
+    clear: both;
+    width: 70%;
+    position: relative;
+    top : 150px;
+    left: 10%;
+}
+
+.paragr6MunicipSurv{
+    position: relative;
+    left: 10%
+}
 
 .paragraphDiapoGenHigh {
     position: relative;

@@ -59,6 +59,7 @@
     top: 25%;
     left: 12%;
     width: 55%;
+    font-size: 30px;
 }
 
 .titleDiapoDeriveCamera {
@@ -75,7 +76,7 @@
     position: absolute;
     top: 32%;
     left: 12%;
-    width: 55%;
+    width: 70%;
 }
 
 
