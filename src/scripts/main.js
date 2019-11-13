@@ -12,7 +12,7 @@ function goToSlide(name){
         ws.goToSlide(8, false);
     }
     if(name === "recFac"){
-        ws.goToSlide(3, false);
+        ws.goToSlide(3, false); // TODO : last slide
     }
 
     if(name === "home"){
