@@ -12,7 +12,7 @@
     --button-gray: #AFAFAF;
     --background-color1: #EBEBEB;
     --background-color2: #C2C2C2;
-    --background-color3: #8C8C8C;
+    --background-color3: #8c8c8c;
     --background-color4: #656565;
     --background-color5: #3F3F3F;
     --on-clear-color: #2E2E2E;
@@ -29,7 +29,7 @@ body {
 }
 
 .txtBlackParagraph {
-    color: black;;
+    color: black;
     font-family: Calibri;
 }
 
@@ -63,28 +63,23 @@ body {
     top: 18%;
 }
 
-
-.whiteline {
-    width: 3px;
-    height: 400px;
-    background: white;
-    position: absolute;
-    left: 480px;
-    top: 80px
-}
-
-
 .sectionWhite {
     background-color: white;
+    background-size: 100%, 100%;
 }
 
 .sectionColor1 {
+<<<<<<< HEAD
     background-color: var(--background-color1) ;
     background-image: url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+=======
+    background: #EBEBEB url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+>>>>>>> ee4ec59a8c7acbc2333ee9101688c86122eaa01c
     background-size: 100%, 100%;
 }
 
 .sectionColor2 {
+<<<<<<< HEAD
     background-color: var(--background-color2) ;
     background-image:url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
 }
@@ -102,6 +97,25 @@ body {
 .sectionColor5 {
     background-color: var(--background-color5) ;
     background-image:  url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+=======
+    background: #C2C2C2 url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background-size: 100%, 100%;
+}
+
+.sectionColor3 {
+    background: #8c8c8c url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background-size: 100%, 100%;
+}
+
+.sectionColor4 {
+    background: #656565 url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background-size: 100%, 100%;
+}
+
+.sectionColor5 {
+    background: #3F3F3F url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background-size: 100%, 100%;
+>>>>>>> ee4ec59a8c7acbc2333ee9101688c86122eaa01c
 }
 
 
