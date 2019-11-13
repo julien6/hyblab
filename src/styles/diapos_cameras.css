@@ -1,0 +1,108 @@
+.titleDiapoMondeCamera {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 12%;
+    display: block;
+}
+
+.titleDiapoQuoiCamera {
+    font-size: 80px;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 12%;
+    display: block;
+}
+
+.paragraphDiapoQuoiCamera {
+    position: relative;
+    top: 70px;
+    left: 11%;
+    width: 55%;
+}
+
+.titleDiapoMuniCamera {
+    font-size: 80px;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 12%;
+    display: block;
+}
+
+.paragraphDiapoMuniCamera {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    width: 55%;
+}
+
+.titleDiapoFranceCamera {
+    font-size: 80px;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 53%;
+    display: block;
+}
+
+.paragraphDiapoFranceCamera {
+    position: absolute;
+    top: 49%;
+    left: 12%;
+    width: 55%;
+}
+
+.titleDiapoDeriveCamera {
+    font-size: 80px;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 53%;
+    display: block;
+}
+
+.paragraphDiapoDeriveCamera {
+    position: absolute;
+    top: 32%;
+    left: 12%;
+    width: 55%;
+}
+
+
+.paragraphDiapoMondeCamera {
+    position: relative;
+    top: 0%;
+    left: 11%;
+    width: 55%;
+}
+
+.imageCamera {
+    position: absolute;
+    width: 15%;
+    top: 33%;
+    right: 8%;
+    height: 144px;
+}
+
+.imageCameraLaser {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    top: 32%;
+    right: 7%;
+}
+
+.section99 {
+    border-color: var(--on-dark-color) smoke;
+    border-style: solid;
+    border-width: 50px 50px 50px 50px;
+}

@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'BebasKai'; /*a name to be used later*/
+    src: url("../assets/font/BebasKai.ttf"); /*URL to font*/
+}
+
+* {
+    outline: 0 !important;
+}
+
+:root {
+    --color-red: #E62E2B;
+    --button-gray: #AFAFAF;
+    --background-color1: #EBEBEB;
+    --background-color2: #C2C2C2;
+    --background-color3: #8C8C8C;
+    --background-color4: #656565;
+    --background-color5: #3F3F3F;
+    --on-clear-color: #2E2E2E;
+    --on-dark-color: #FFFFFF;
+}
+
+html,
+body {
+    font-family: Calibri, sans-serif;
+}
+
+.RedImg {
+    cursor: pointer;
+}
+
+.txtBlackParagraph {
+    color: black;;
+    font-family: Calibri;
+}
+
+.txtBlack {
+    color: black;
+    font-family: BebasKai;
+}
+
+.txtWhite {
+    color: white;
+    font-family: BebasKai;
+}
+
+
+.txtRed {
+    color: var(--color-red);
+    font-family: BebasKai;
+}
+
+.columnThree {
+    float: left;
+    width: 33.33%;
+}
+
+.blackLine {
+    width: 3px;
+    height: 70%;
+    background: black;
+    position: absolute;
+    left: 10%;
+    top: 18%;
+}
+
+
+.whiteline {
+    width: 3px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    left: 480px;
+    top: 80px
+}
+
+
+.sectionWhite {
+    background-color: white;
+}
+
+.sectionColor1 {
+    background-color: var(--background-color1) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    background-size: 100%, 100%;
+}
+
+.sectionColor2 {
+    background-color: var(--background-color2) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+}
+
+.sectionColor3 {
+    background-color: var(--background-color3) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+}
+
+.sectionColor4 {
+    background-color: var(--background-color4) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+}
+
+.sectionColor5 {
+    background-color: var(--background-color5) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+}
+
+
+.columnSideLeft {
+    float: left;
+    width: 10%;
+}
+
+.columnMiddle {
+    float: left;
+    width: 80%;
+}
+
+.columnSideRight {
+    float: left;
+    width: 10%;
+}
+
+.columnSideRight2 {
+    float: left;
+    width: 10%;
+}
+
+.contentLeft {
+    float: left;
+    width: 30%;
+}
+
+.contentMiddle {
+    float: left;
+    width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    margin: 10%;
+    display: table;
+    clear: both;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.video_fin {
+    position: absolute;
+    top: 8%;
+    right: 0%;
+    width: 50%;
+    height: 50%;
+}
+
+.imageBD {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.imageHD {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.imageBG {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.imageHG {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.rec {
+    position: absolute;
+    top: 50px;
+    left: 57px;
+}
+
+.curseur {
+    position: absolute;
+    vertical-align: center;
+    left: 60px;
+    bottom: 25%;
+    height: 50%;
+}
+
+.menuButton {
+    position: absolute;
+    bottom: 6%;
+    left: 3%;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.sideButton {
+    background-color: var(--button-gray);
+    border: none;
+    color: var(--on-dark-color);
+    text-align: center;
+    font-size: 2vh;
+    font-weight: bold;
+    cursor: pointer;
+    height: 8%;
+    width: 17%;
+    position: absolute;
+    right: 0;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: rotate(-90deg);
+}
+
+.sideButton2 {
+    background-color: var(--button-gray);
+    border: none;
+    color: var(--on-dark-color);
+    text-align: center;
+    font-size: 2vh;
+    font-weight: bold;
+    cursor: pointer;
+    height: 5%;
+    width: 17%;
+    position: absolute;
+    top: 28%;
+    right: 0;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: rotate(-90deg);
+}
+
+.currentSideButton {
+    background-color: var(--color-red);
+}
+
+.droneSideButton {
+    top: 18%;
+}
+
+.droneSideButton2 {
+    top: 23%;
+    right: -1%;
+}
+
+.cameraSideButton {
+    top: 46.5%;
+}
+
+.cameraSideButton2 {
+    top: 65%;
+    right: -1%;
+}
+
+.recoSideButton {
+    bottom: 18%
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--on-dark-color);
+}
+
+.img {
+    max-width: 100%;
+    position: absolute;
+}
+
+.img:hover {
+    opacity: 1;
+}
+
+.paragraph {
+    color: #666666;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    position: absolute;
+}
+
+/*
+.sectionBorder {
+border-style: solid;
+border-width: 50px 100px 100px 100px;
+/*top right bottom left
+}
+*/
+
+
+@media (max-width: 1024px),
+(max-height: 600px) {
+
+    .title1 {
+        font-size: 40px;
+    }
+
+    .title2 {
+        font-size: 30px;
+    }
+
+    .title3 {
+        font-size: 22px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        line-height: 20px;
+
+
+        /*
+        .sectionBorder {
+            border-width: 25px 50px 50px 50px;
+        }
+        */
+    }
+
+}

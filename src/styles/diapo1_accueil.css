@@ -1,39 +1,35 @@
-/*
+
 .section11 {
     background: url('../assets/images/camera.jpg') center center no-repeat;
     background-size: 100%, 100%;
     background-attachment: fixed;
 }
 
-.imageCamera{
-    position: absolute;
-    top: 33%;
-    right: 8%;
-    height: 144px;
-}
-.whiteline {
-    width: 4px;
-    height: 90%;
-    background: white;
-    position: absolute;
-    left: 35%;
-    top: 15%;
+/**------------------------------ DIAPO 2 : BIENVENUE A TECHNOPOLICE -----------------------**/
+.sectionSlide2 {
+    background-size: 100%, 100%;
+    background: white url('../assets/images/background/background_technopolice.svg') no-repeat fixed center center;
 }
 
-.title11 {
-color: var(--on-dark-color);
-font-size: 90px;
-font-family:"BebasKai";
-position:absolute;
-top:50%;
-left:40%;
+.titleSlide2 {
+    font-size: 10vh;
+    font-weight: bold;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 7%;
+    right: 12%;
+    display: block;
 }
 
-.title12 {
-    color: var(--on-dark-color);
-    font-size: 90px;
-    font-family:"BebasKai";
-    position:absolute;
-    top:65%;
-    left:40%;
-}*/
+.paragraphSlide2 {
+    position: relative;
+    font-size: 2.5vh;
+    top: 0;
+    left: 11%;
+    font-family: Calibri;
+    width: 60%;
+}
+
+/**------------------------------------------FIN DIAPO 2 ------------------------ -----------**/
+

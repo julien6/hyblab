@@ -1,0 +1,64 @@
+.paragraphDiapoGen {
+    position: relative;
+    top: 140px;
+    left: 10%;
+    width: 70%;
+    display: block;
+}
+
+.paragraphDiapoGenHigh {
+    position: relative;
+    top: 40px;
+    left: 11%;
+    width: 60%;
+    display: block;
+}
+
+.titleDiapoGen {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 100px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    display: block;
+    width: 50%;
+}
+
+.sectionColor1 {
+    background-size: 100%, 100%;
+    background: var(--background-color2) url('../assets/images/background_effet_ligne.png') no-repeat fixed center center;
+    border-color: var(--on-dark-color) smoke;
+    border-style: solid;
+    border-width: 50px 50px 50px 50px;
+}
+
+
+.imageOutil1 {
+    position: absolute;
+    top: 8%;
+    right: 10%;
+    height: 720px;
+}
+
+.imageOutil {
+    position: absolute;
+    top: 8%;
+    right: 15%;
+    width: 266px;
+    height: 144px;
+}
+
+.ombreDrone3 {
+    position: absolute;
+    bottom: 8%;
+    right: 15%;
+    width: 266px;
+    height: 144px;
+}
+
+.sectionGen {
+/ / border-color: whitesmoke;
+/ / border-style: solid;
+/ / border-width: 50 px 50 px 50 px 50 px;
+}
