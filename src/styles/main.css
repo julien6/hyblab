@@ -71,7 +71,8 @@ body {
 
 .paragraphDiapo2 {
     position: relative;
-    top: 0%;
+    font-size: 2.5vh;
+    top: 0;
     left: 11%;
     width: 70%;
 }
