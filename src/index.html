@@ -25,25 +25,41 @@
 
     <section  class = "section11">
   
-        <image class="imageBD" src="assets/images/angle_film_BD_blanc.png" ></image>
-        <image class="imageBG" src="assets/images/angle_film_BG_blanc.png" ></image>
-        <image class="imageHD" src="assets/images/angle_film_HD_blanc.png" ></image>
-        <image class="imageHG" src="assets/images/angle_film_HG_blanc.png" ></image>
+        <img class="imageBD" src="assets/images/angle_film_BD_blanc.png" ></img>
+        <img class="imageBG" src="assets/images/angle_film_BG_blanc.png" ></img>
+        <img class="imageHD" src="assets/images/angle_film_HD_blanc.png" ></img>
+        <img class="imageHG" src="assets/images/angle_film_HG_blanc.png" ></img>
 
-        
-        <image class="whiteline"></image>
-        <p class="title11">SOURIEZ, </p>
-        <p class="title12">VOUS ÊTES FILMÉS</p>
-        <image class="whiteline"></image>
+        <div class="row2">
+            <div class="contentLeft">
+                <p class="title13">PEUR SUR MA VILLE</p>
+                <p class="title14">//2019</p>
+            </div>
+            <div class="contentMiddle">
+                <img class="whiteline"></img>
+                <p class="title11">BIENVENUE A </p>
+                <p class="title12">TECHNOLOPOLICE</p>
+            </div>
+        </div>
+        <!--<div style="position: center">
+            <img class="RedImg" height=19 width=53 onclick="goToSlide('home')"
+                 src="assets/images/fleche_bas_blanche.png" style="position: bottom center"></img>
+            <span style="font-color=white">accéder au site</span>
+        </div>-->
+
+        <!--<img class="whiteline"></img>
+        <p class="title11">BIENVENUE A </p>
+        <p class="title12">TECHNOLOPOLICE</p>
+        <img class="whiteline"></img>
         <p class="title13">PEUR SUR MA VILLE</p>
         <p class="title14">//2019</p>
 
-        <image class="RedImg" height=19 width=53 onclick="goToSlide('home')"
-               src="assets/images/fleche_bas_blanche.png"></image>
+        <img class="RedImg" height=19 width=53 onclick="goToSlide('home')"
+               src="assets/images/fleche_bas_blanche.png" style="position: bottom center"></img>
         <span style="font-color=white">accéder au site</span>
-        <!--        <INPUT type=image height=19 width=53 src="assets/images/fleche_bas_blanche.png" name=RedImg οnclick="goToSlide(2)">-->
-
-        </section>
+        &lt;!&ndash;        <INPUT type=image height=19 width=53 src="assets/images/fleche_bas_blanche.png" name=RedImg οnclick="goToSlide(2)">&ndash;&gt;
+-->
+    </section>
 
 
     <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -53,14 +69,9 @@
     <section class="sectionBorder section22">
 
 
-        <p class="titleDiapo2"><span class="txtRed">LA POLICE DU FUTUR, </span><span class="txtBlack">UN ENJEU MUNICIPAL EN CONSTANTE EVOLUTION</span>
-            <span class="txtRed">AU DESSUS DE NOS TÊTES</span></p>
-
+        <p class="titleDiapo2"><span class="txtBlack">VOUS NE ME PENSEZ PAS R&EacuteELLE ? </span><span class="txtRed">POURTANT JE SUIS D&EacuteJ&Agrave L&Agrave.</span>
         <p class="paragraphDiapo2">
-            <span class="txtBlack">Pour en savoir plus sur ces enjeux, cliquez sur l'un des 3 moyens de vidéosurveillance Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit. Etiam ut congue tellus. Donec ac suscipit risus. Nam et quam placerat,
-            ultrices dolor
-            commodo, congue diam.</span>
+            <span class="txtBlack">Je vous identifie à Nice, je vous suis à Pékin, je vous observe à Londres. Pour une visite inédite de mes plus beaux points de vue, suivez mon regard...</span>
         </p>
 
         <div class="blackLine"></div>
@@ -68,26 +79,28 @@
         <img class="imageBD" src="assets/images/angle_film_BD_noir.png" alt="Angle camera">
         <img class="imageHD" src="assets/images/angle_film_HD_noir.png" alt="Angle camera">
         <img class="imageBG" src="assets/images/angle_film_BG_noir.png" alt="Angle camera">
-        <img class="imageHG" src="assets/images/Tracé%201.png" alt="Angle camera">
+        <img class="imageHG" src="assets/images/Trace_1.png" alt="Angle camera">
         <img class="rec" src="assets/images/REC.png" alt="Angle camera">
 
         <div class="columnsDiapo2">
 
-            <div class="columnThree drone">
-                <p class="txtBlack">DRÔNE</p>
-                <!--                <img class="img img2x1" src="assets/images/illu_intro.png" alt="img intro"/>-->
+            <div class="columnThree homeChoiceDiv" onclick="goToSlide('drone')">
+                <p class="txtBlack txtHome">JE VOUS TRAQUE</p>
+                <img class="drone" src="assets/images/drones/Drone.svg" alt="img drone x1"/>
             </div>
 
-            <div class="columnThree videoSurveillance">
-                <p class="txtBlack">VIDEO SURVEILLANCE</p>
-                <!--                <img class="img img2x1" src="assets/images/illu_intro.png" alt="img intro"/>-->
+            <div class="columnThree homeChoiceDiv" onclick="goToSlide('camera')">
+                <p class="txtBlack txtHome">JE VOUS VOIS</p>
+                <img class="videoSurveillance1" src="assets/images/camera/Camera.svg" alt="img camera"/>
+                <img class="videoSurveillance2" src="assets/images/camera/camera_miroir.svg" alt="img camera"/>
             </div>
 
-            <div class="columnThree reconnaissanceFaciale">
-                <p class="txtBlack">RECONNAISSANCE FACIALE</p>
-                <!--                <img class="img img2x1" src="assets/images/illu_intro.png" alt="img intro"/>-->
+            <!---
+            <div class="columnThree homeTrio">
+                <p class="txtBlack txtHome">JE VOUS CONNAIS</p>
+                <img class="reconnaissanceFaciale" src="" alt="img rec faciale"/>
             </div>
-
+            --->
         </div>
 
     </section>
@@ -134,6 +147,7 @@
     </section>
 
 
+<<<<<<< HEAD
        <!------------------------------------------------------------------------------------------------------------------------------------------------------>
     <!----------------------------------------------------------------DIAPO QUOI CAMERA------------------------------------------------------------------->
     <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -206,6 +220,10 @@
 
     <!------------------------------------------------------------------------------------------------------------------------------------------------------>
     <!----------------------------------------------------------------DIAPO MUNI CAMERA------------------------------------------------------------------------------->
+=======
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <!----------------------------------------------------------------DIAPO 9------------------------------------------------------------------------------->
+>>>>>>> a19179f83659626e44fa9cec2d31fbf8a3a86b93
     <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
     <section class="sectionBorder section99">
@@ -229,7 +247,7 @@
         <img class="imageBD" src="assets/images/angle_film_BD_noir.png" alt="Angle camera">
         <img class="imageHD" src="assets/images/angle_film_HD_noir.png" alt="Angle camera">
         <img class="imageBG" src="assets/images/angle_film_BG_noir.png" alt="Angle camera">
-        <img class="imageHG" src="assets/images/Tracé%201.png" alt="Angle camera">
+        <img class="imageHG" src="assets/images/Trace_1.png" alt="Angle camera">
         <img class="rec" src="assets/images/REC.png" alt="Angle camera">
 
 
@@ -267,7 +285,7 @@
         <img class="imageBD" src="assets/images/angle_film_BD_noir.png" alt="Angle camera">
         <img class="imageHD" src="assets/images/angle_film_HD_noir.png" alt="Angle camera">
         <img class="imageBG" src="assets/images/angle_film_BG_noir.png" alt="Angle camera">
-        <img class="imageHG" src="assets/images/Tracé%201.png" alt="Angle camera">
+        <img class="imageHG" src="assets/images/Trace_1.png" alt="Angle camera">
         <img class="rec" src="assets/images/REC.png" alt="Angle camera">
 
 
@@ -343,7 +361,7 @@
         <img class="imageBD" src="assets/images/angle_film_BD_noir.png" alt="Angle camera">
         <img class="imageHD" src="assets/images/angle_film_HD_noir.png" alt="Angle camera">
         <img class="imageBG" src="assets/images/angle_film_BG_noir.png" alt="Angle camera">
-        <img class="imageHG" src="assets/images/Tracé%201.png" alt="Angle camera">
+        <img class="imageHG" src="assets/images/Trace_1.png" alt="Angle camera">
         <img class="rec" src="assets/images/REC.png" alt="Angle camera">
 
 
@@ -354,6 +372,36 @@
             </div>
         
             <p class="menuButton" onclick="goToSlide('home')"><span class="txtBlack">MENU</span></p>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <!----------------------------------------------------------------DIAPO FIN REMERCIEMENTS--------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+    <section class="sectionFIN">
+        <div class="row2">
+            <div class="contentLeft">
+                <img src="assets/images/logos/hyblab.png" alt="ecoles">
+            </div>
+            <div class="contentMiddle">
+                <div>
+                    <h1>Remerciements</h1>
+                    <h4>Maëva Bedouet</h4>
+                    <h4>Anaïs Hamon</h4>
+                    <h4>Julien Legros</h4>
+                    <h4>Séverine Lemaire</h4>
+                    <h4>Eugénie Pimont</h4>
+                    <h4>Julien Soulé</h4>
+                    <h4>Roxane Vahedi</h4>
+                    <h4>Jing Zhu</h4>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <img class="logos" src="assets/images/logos/INSA.png" alt="ecoles">
+            <img class="logos" src="assets/images/logos/creative_commons.png" alt="creative_commons_logos">
+            <img class="logos" src="assets/images/logos/opensource.png" alt="opensource">
+        </div>
     </section>
 </article>
 
