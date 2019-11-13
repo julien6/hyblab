@@ -51,12 +51,13 @@
     left: 12%;
     top: 15%;
     right: 53%;
+    width: 100%;
     display: block;
 }
 
 .paragraphDiapoFranceCamera {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 12%;
     width: 55%;
     font-size: 30px;
