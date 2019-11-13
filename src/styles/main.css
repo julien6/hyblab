@@ -391,6 +391,17 @@ body {
  }
 
 
+
+/**------------------------------ DIAPO 2 : BIENVENUE A TECHNOPOLICE -----------------------**/
+.sectionSlide2 {
+    background: url('../assets/images/background/background_technopolice.svg') center center no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    background-color: var(--background-color1);
+}
+
+/**------------------------------------------FIN DIAPO 2 ------------------------ -----------**/
+
 .sectionFIN {
     background: url('../assets/images/camera/camera_laser.svg') center right no-repeat;
     background-size: 60%, 60%;
