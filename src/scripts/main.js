@@ -16,6 +16,6 @@ function goToSlide(name){
     }
 
     if(name === "home"){
-        ws.goToSlide(1, true);
+        ws.goToSlide(2, true);
     }
 }
