@@ -387,6 +387,7 @@ body {
  */
 
 .homeTrio{
+    display: block;
     background-color: white;
     min-height: 35vh;
     width: 32%;
